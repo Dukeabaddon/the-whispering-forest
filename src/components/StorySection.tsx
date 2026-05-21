@@ -8,13 +8,13 @@ export default function StorySection() {
       className="relative w-full py-28 sm:py-36 bg-gradient-to-b from-[#E8DDC7] via-[#2F4633]/65 to-[#0D0D0D] overflow-hidden flex flex-col items-center -mt-24 z-10"
     >
       {/* Cinematic Transition Overlay Blending News into Story */}
-      <div className="absolute top-0 inset-x-0 h-44 pointer-events-none z-10 overflow-hidden">
+      <div className="absolute top-0 inset-x-0 h-24 pointer-events-none z-10 overflow-hidden">
         {/* Layer 1: Ambient warm mist fading down */}
-        <div className="absolute top-0 inset-x-0 h-28 bg-gradient-to-b from-[#E8DDC7] to-transparent" />
-        
+        <div className="absolute top-0 inset-x-0 h-24 bg-gradient-to-b from-[#E8DDC7] to-transparent" />
+
         {/* Layer 2: Soft atmospheric forest fog blending upward */}
-        <div className="absolute bottom-0 inset-x-0 h-36 bg-gradient-to-t from-[#2F4633]/45 via-[#2F4633]/20 to-transparent filter blur-2xl" />
-        
+        <div className="absolute bottom-0 inset-x-0 h-10 bg-gradient-to-t from-[#2F4633]/45 via-[#2F4633]/20 to-transparent filter blur-2xl" />
+
         {/* Layer 3: Organic watercolor wash radial glow */}
         <div className="absolute -top-20 left-1/4 w-[60vw] h-[35vh] bg-gradient-radial from-[#C89B5B]/15 to-transparent blur-3xl" />
         <div className="absolute -top-20 right-1/4 w-[60vw] h-[35vh] bg-gradient-radial from-[#2F4633]/25 to-transparent blur-3xl" />
