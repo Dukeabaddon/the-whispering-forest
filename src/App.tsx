@@ -13,12 +13,28 @@ import WorldSection from './components/WorldSection';
 import TrailerSection from './components/TrailerSection';
 import Footer from './components/Footer';
 import { Volume2, VolumeX, Sparkles } from 'lucide-react';
+import { motion, AnimatePresence } from 'motion/react';
+import CinematicLoader from './components/CinematicLoader';
 
 export default function App() {
+  const [isLoading, setIsLoading] = useState(true);
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
+  const [isSoundHovered, setIsSoundHovered] = useState(false);
   const audioCtxRef = useRef<AudioContext | null>(null);
   const synthNodesRef = useRef<OscillatorNode[]>([]);
   const gainNodeRef = useRef<GainNode | null>(null);
+
+  // Prevent body scroll while loading is active
+  useEffect(() => {
+    if (isLoading) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isLoading]);
 
   // Web Audio API: Generate an organic, slow-breathing modal sylvan chord
   const startSylvanSoundbed = () => {
@@ -141,27 +157,54 @@ export default function App() {
 
       {/* 2. Floating Soundbed Play HUD (Top-right corner overlay) */}
       <div className="fixed top-6 right-6 z-40 flex items-center gap-3">
-        <button 
+        <motion.button 
           onClick={toggleSoundbed}
-          className={`px-4 py-2.5 rounded-full border text-[10px] tracking-[0.25em] font-mono flex items-center gap-2.5 filter backdrop-blur-md select-none transition-all duration-500 cursor-pointer ${
+          onMouseEnter={() => setIsSoundHovered(true)}
+          onMouseLeave={() => setIsSoundHovered(false)}
+          animate={{
+            width: isSoundHovered ? 224 : 40,
+          }}
+          whileHover={{ scale: 1.03 }}
+          whileTap={{ scale: 0.95 }}
+          transition={{ type: "spring", stiffness: 350, damping: 26 }}
+          className={`h-10 overflow-hidden rounded-full border text-[10px] tracking-[0.25em] font-mono flex items-center justify-start px-[11px] relative filter backdrop-blur-md select-none cursor-pointer group ${
             isAudioPlaying 
               ? 'bg-[#ffe9c9]/10 border-[#C89B5B] text-[#C89B5B] shadow-[0_0_12px_rgba(200,155,91,0.18)]' 
               : 'bg-black/40 border-white/10 hover:border-[#C89B5B]/50 text-white/70'
           }`}
           title="Toggle ancient forest chimes synth"
         >
+          {/* Ripple animation on click toggle */}
+          <motion.span
+            key={isAudioPlaying ? "playing" : "muted"}
+            initial={{ scale: 0.8, opacity: 0.5 }}
+            animate={{ scale: 2.2, opacity: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className={`absolute inset-0 rounded-full border pointer-events-none ${
+              isAudioPlaying ? 'border-[#C89B5B]' : 'border-white/30'
+            }`}
+          />
+
           {isAudioPlaying ? (
-            <>
-              <Volume2 className="w-3.5 h-3.5 animate-pulse text-[#C89B5B]" />
-              <span>FOREST CHIMES: ON</span>
-            </>
+            <div className="flex items-center whitespace-nowrap">
+              <Volume2 className="w-4 h-4 min-w-[16px] animate-pulse text-[#C89B5B] relative z-10" />
+              <span className={`transition-opacity duration-300 ml-3 uppercase whitespace-nowrap relative z-10 ${
+                isSoundHovered ? 'opacity-100' : 'opacity-0'
+              }`}>
+                FOREST CHIMES: ON
+              </span>
+            </div>
           ) : (
-            <>
-              <VolumeX className="w-3.5 h-3.5 opacity-60" />
-              <span>FOREST CHIMES: OFF</span>
-            </>
+            <div className="flex items-center whitespace-nowrap">
+              <VolumeX className="w-4 h-4 min-w-[16px] opacity-60 relative z-10" />
+              <span className={`transition-opacity duration-300 ml-3 uppercase whitespace-nowrap relative z-10 ${
+                isSoundHovered ? 'opacity-100' : 'opacity-0'
+              }`}>
+                FOREST CHIMES: OFF
+              </span>
+            </div>
           )}
-        </button>
+        </motion.button>
 
         {/* Small sylvan sigil glow indicator */}
         <div className={`w-2 h-2 rounded-full duration-700 ${
@@ -184,6 +227,12 @@ export default function App() {
       
       <Footer />
 
+      {/* 4. Fullscreen Cinematic Grimoire Loader */}
+      <AnimatePresence>
+        {isLoading && (
+          <CinematicLoader onComplete={() => setIsLoading(false)} />
+        )}
+      </AnimatePresence>
     </main>
   );
 }

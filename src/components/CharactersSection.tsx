@@ -8,8 +8,8 @@ export default function CharactersSection() {
   const activeChar = CHARACTERS.find(c => c.id === selectedId) || CHARACTERS[0];
 
   return (
-    <section 
-      id="character-section" 
+    <section
+      id="character-section"
       className="relative w-full py-28 sm:py-36 bg-[#0D0D0D] text-[#F4F1EA] overflow-hidden flex flex-col items-center"
     >
       {/* Background radial highlight */}
@@ -17,7 +17,7 @@ export default function CharactersSection() {
 
       {/* Main Container */}
       <div className="w-full max-w-6xl px-8 sm:px-12 relative z-10 flex flex-col">
-        
+
         {/* Section Header: Left-aligned anime visual booklet format */}
         <div className="mb-16 md:mb-20 flex flex-col items-start border-l-2 border-[#9C4B4B] pl-6">
           <span className="font-mono text-[9px] tracking-[0.4em] text-[#C89B5B] uppercase font-semibold mb-1 block">
@@ -41,22 +41,21 @@ export default function CharactersSection() {
                 onClick={() => setSelectedId(char.id)}
                 whileHover={{ y: -6 }}
                 transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-                className={`relative aspect-[3/4.5] w-full rounded-md overflow-hidden cursor-pointer border transition-all duration-700 select-none group ${
-                  isActive 
-                    ? 'border-[#C89B5B] shadow-[0_12px_24px_rgba(200,155,91,0.25)]' 
+                className={`relative aspect-[3/4.5] w-full rounded-md overflow-hidden cursor-pointer border transition-all duration-700 select-none group ${isActive
+                    ? 'border-[#C89B5B] shadow-[0_12px_24px_rgba(200,155,91,0.25)]'
                     : 'border-white/10 hover:border-[#9C4B4B]/55'
-                }`}
+                  }`}
               >
                 {/* Character image with painterly overlay filters */}
                 <div className="absolute inset-0 w-full h-full scale-[1.01] overflow-hidden bg-[#121212]">
-                  <img 
-                    src={char.image} 
-                    alt={char.nameEN} 
+                  <img
+                    src={char.image}
+                    alt={char.nameEN}
                     referrerPolicy="no-referrer"
-                    className="w-full h-full object-cover filter brightness-[0.55] saturate-[55%] contrast-[105%] group-hover:scale-105 group-hover:brightness-[0.62] transition-all duration-700 ease-out" 
+                    className="w-full h-full object-cover filter brightness-[0.55] saturate-[55%] contrast-[105%] group-hover:scale-105 group-hover:brightness-[0.62] transition-all duration-700 ease-out"
                   />
                   {/* Cinematic color vignette tint relative to character's accent */}
-                  <div 
+                  <div
                     className="absolute inset-0 opacity-40 mix-blend-color"
                     style={{ backgroundColor: char.accentColor }}
                   />
@@ -75,12 +74,12 @@ export default function CharactersSection() {
                   <span className="font-mono text-[8px] tracking-[0.35em] text-[#C89B5B] font-semibold mb-1 uppercase">
                     {char.role}
                   </span>
-                  
+
                   {/* Name EN / JP */}
                   <h3 className="font-serif text-xl font-light text-[#FAF1EA] tracking-widest leading-none">
                     {char.nameEN}
                   </h3>
-                  
+
                   <span className="font-serif text-xs text-[#FAF1EA]/55 tracking-widest mt-1 block">
                     {char.nameJP}
                   </span>
@@ -92,9 +91,8 @@ export default function CharactersSection() {
                 </div>
 
                 {/* Soft border glowing flare active circle */}
-                <div className={`absolute top-4 right-4 w-2 h-2 rounded-full transition-all duration-500 ${
-                  isActive ? 'bg-[#C89B5B] scale-100 shadow-[0_0_8px_#C89B5B]' : 'bg-transparent scale-0'
-                }`} />
+                <div className={`absolute top-4 right-4 w-2 h-2 rounded-full transition-all duration-500 ${isActive ? 'bg-[#C89B5B] scale-100 shadow-[0_0_8px_#C89B5B]' : 'bg-transparent scale-0'
+                  }`} />
 
               </motion.div>
             );
@@ -122,7 +120,7 @@ export default function CharactersSection() {
                 <span className="font-mono text-[9px] tracking-[0.32em] text-[#C89B5B] uppercase block mb-3">
                   VOICE CREDENTIALS
                 </span>
-                
+
                 {/* VA Japanese */}
                 <div className="flex items-center gap-3 mb-4">
                   <Volume2 className="w-4 h-4 text-[#C89B5B] opacity-85" />
@@ -153,7 +151,7 @@ export default function CharactersSection() {
               {/* Trait Tags */}
               <div className="flex flex-wrap gap-2 pt-4">
                 {activeChar.traits.map((trait, i) => (
-                  <span 
+                  <span
                     key={i}
                     className="font-mono text-[9px] tracking-wider text-[#FAF1EA]/70 bg-white/[0.04] border border-white/10 rounded-sm px-2.5 py-1 flex items-center gap-1.5"
                   >
@@ -178,8 +176,6 @@ export default function CharactersSection() {
                 </p>
               </div>
 
-              {/* Separation thin line */}
-              <div className="w-12 h-[1px] bg-[#9C4B4B]/35 mb-6" />
 
               {/* Full Role Title */}
               <span className="font-serif text-xs text-[#C89B5B] tracking-[0.25em] font-medium block uppercase mb-1 flex items-center gap-2">

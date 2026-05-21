@@ -177,9 +177,6 @@ export default function HeroSection() {
         </div>
 
       </div>
-
-      {/* Vignette shadow blending to News section parchment color */}
-      <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-[#E8DDC7] via-[#E8DDC7]/70 to-transparent pointer-events-none select-none z-20" />
     </section>
   );
 }

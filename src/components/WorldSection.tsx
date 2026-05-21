@@ -9,22 +9,19 @@ export default function WorldSection() {
   const activeLore = LORE_ITEMS.find(l => l.id === activeTab) || LORE_ITEMS[0];
 
   return (
-    <section 
-      id="world-section" 
+    <section
+      id="world-section"
       className="relative w-full py-28 sm:py-36 bg-[#E8DDC7] text-[#1C120D] overflow-hidden flex flex-col items-center"
     >
       {/* Smooth misty black-to-parchment transition overlays */}
-      <div className="absolute top-0 inset-x-0 h-32 bg-gradient-to-b from-[#0D0D0D] to-transparent pointer-events-none z-10 opacity-95" />
-      <div className="absolute top-0 inset-x-0 h-44 bg-gradient-to-b from-[#0D0D0D] via-[#2F4633]/30 to-transparent pointer-events-none filter blur-xl z-10 opacity-75" />
+      <div className="absolute top-0 inset-x-0 h-8 bg-gradient-to-b from-[#0D0D0D] to-transparent pointer-events-none z-10 opacity-97" />
+      <div className="absolute top-0 inset-x-0 h-8 bg-gradient-to-b from-[#0D0D0D] via-[#2F4633]/30 to-transparent pointer-events-none filter blur-xl z-10 opacity-75" />
 
-      {/* Smooth misty parchment-to-black bottom transition overlays */}
-      <div className="absolute bottom-0 inset-x-0 h-32 bg-gradient-to-t from-[#0D0D0D] to-transparent pointer-events-none z-10 opacity-95" />
-      <div className="absolute bottom-0 inset-x-0 h-44 bg-gradient-to-t from-[#0D0D0D] via-[#2F4633]/30 to-transparent pointer-events-none filter blur-xl z-10 opacity-75" />
 
       {/* Decorative old paper grit texture */}
-      <div 
+      <div
         className="absolute inset-0 pointer-events-none opacity-[0.09] mix-blend-color-burn"
-        style={{ 
+        style={{
           backgroundImage: `url('https://images.unsplash.com/photo-1587080266227-677cd237c267?auto=format&fit=crop&w=1200&q=80')`,
           backgroundSize: 'cover'
         }}
@@ -33,22 +30,22 @@ export default function WorldSection() {
 
       {/* ROTATING VECTOR MAGIC RUNE CIRCLE: Slow spinning background detail */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] opacity-[0.08] pointer-events-none select-none z-0">
-        <motion.svg 
+        <motion.svg
           animate={{ rotate: 360 }}
           transition={{ duration: 45, repeat: Infinity, ease: "linear" }}
-          viewBox="0 0 540 540" 
-          fill="none" 
-          xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 540 540"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
           className="w-full h-full text-[#1C120D]"
         >
           <circle cx="270" cy="270" r="260" stroke="currentColor" strokeWidth="1.5" strokeDasharray="10 5" />
           <circle cx="270" cy="270" r="230" stroke="currentColor" strokeWidth="0.75" />
           <circle cx="270" cy="270" r="210" stroke="currentColor" strokeWidth="2" strokeDasharray="30 15 5 15" />
           <circle cx="270" cy="270" r="130" stroke="currentColor" strokeWidth="1" />
-          
+
           {/* Concentric octagram star lines */}
           <path d="M270,10 L270,530 M10,270 L530,270 M86,86 L454,454 M86,454 L454,86" stroke="currentColor" strokeWidth="0.5" opacity="0.5" />
-          
+
           {/* Small runic symbols or markings around the loops */}
           {Array.from({ length: 8 }).map((_, i) => {
             const angle = (i * Math.PI) / 4;
@@ -63,7 +60,7 @@ export default function WorldSection() {
 
       {/* Main Container */}
       <div className="w-full max-w-5xl px-8 sm:px-12 relative z-10 flex flex-col items-center">
-        
+
         {/* Header Title: Spanning across the manuscript */}
         <div className="mb-20 text-center flex flex-col items-center">
           <span className="font-mono text-[9px] tracking-[0.4em] text-[#9C4B4B] uppercase font-semibold mb-2 block">
@@ -77,7 +74,7 @@ export default function WorldSection() {
 
         {/* The Vintage Book Interface */}
         <div className="w-full flex flex-col md:flex-row gap-6 items-stretch min-h-[460px]">
-          
+
           {/* Manuscript Side Index Tabs: Styled like rustic leather/paper folder indices */}
           <div className="md:w-1/4 flex md:flex-col gap-3 justify-center md:justify-start">
             {LORE_ITEMS.map((lore, index) => {
@@ -86,11 +83,10 @@ export default function WorldSection() {
                 <button
                   key={lore.id}
                   onClick={() => setActiveTab(lore.id)}
-                  className={`text-left font-serif text-xs px-5 py-4 rounded-sm border transition-all duration-500 flex items-center justify-between gap-3 group relative select-none ${
-                    isActive
-                      ? 'bg-[#1C120D] text-[#E8DDC7] border-[#1C120D] shadow-md translate-x-1'
-                      : 'bg-[#F4F1EA]/80 text-[#3A2A22]/75 border-[#3A2A22]/15 hover:border-[#9C4B4B]/50 hover:bg-[#F4F1EA]'
-                  }`}
+                  className={`text-left font-serif text-xs px-5 py-4 rounded-sm border transition-all duration-500 flex items-center justify-between gap-3 group relative select-none ${isActive
+                    ? 'bg-[#1C120D] text-[#E8DDC7] border-[#1C120D] shadow-md translate-x-1'
+                    : 'bg-[#F4F1EA]/80 text-[#3A2A22]/75 border-[#3A2A22]/15 hover:border-[#9C4B4B]/50 hover:bg-[#F4F1EA]'
+                    }`}
                 >
                   <div className="flex flex-col text-left">
                     <span className="font-mono text-[8px] opacity-40 font-bold tracking-wider mb-0.5">
@@ -101,7 +97,7 @@ export default function WorldSection() {
                     </span>
                   </div>
                   <span className="font-sans font-light opacity-30 text-[10px] hidden lg:inline">»</span>
-                  
+
                   {/* Subtle paper tab indicator edge */}
                   {isActive && (
                     <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1.5 h-1/2 bg-[#C89B5B] rounded-l-xs" />
@@ -131,7 +127,7 @@ export default function WorldSection() {
                 <span className="font-serif text-[11px] text-[#9C4B4B] tracking-[0.25em] font-semibold mb-1 uppercase block">
                   {activeLore.titleEN}
                 </span>
-                
+
                 <h3 className="font-serif text-xl sm:text-2xl font-light text-[#1C120D] tracking-[0.16em] mb-4">
                   {activeLore.titleJP}
                 </h3>

@@ -61,7 +61,7 @@ export default function Footer() {
           </a>
           <div className="w-[1px] h-3 bg-white/20" />
           <span className="font-mono text-[9px] tracking-widest text-[#FAF1EA]/40">
-            TAGS: #mahoyome #ancientmagusbride #sylvanechoes
+            TAGS: #mahoyome #ancientmagusbride #mahoyome2
           </span>
         </div>
 
@@ -77,7 +77,7 @@ export default function Footer() {
         <div className="flex justify-center items-center gap-1.5 mt-8 opacity-45">
           <Sparkles className="w-3 h-3 text-[#C89B5B]" />
           <span className="font-serif text-[9px] text-[#C89B5B] tracking-widest uppercase">
-            Sylvan Sanctum
+            Ainsworth Cottage
           </span>
         </div>
 

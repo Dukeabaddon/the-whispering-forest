@@ -8,11 +8,11 @@ export default function NewsSection() {
       id="news-section"
       className="relative w-full py-24 sm:py-32 bg-[#E8DDC7] text-[#1C120D] overflow-hidden flex flex-col items-center"
     >
-      {/* Dynamic Swaying Hanging Lanterns above the section */}
-      <div className="absolute top-0 left-12 sm:left-24 h-48 z-20">
+      {/* Dynamic Swaying Hanging Lanterns above the section (placed behind text content) */}
+      <div className="absolute top-[260px] sm:top-0 left-12 sm:left-24 h-48 z-0">
         <Lantern chainLength={110} swayDuration={6.5} intensity="soft" glowColor="rgba(190, 140, 80, 0.3)" />
       </div>
-      <div className="absolute top-0 right-12 sm:right-32 h-48 z-20 hidden md:block">
+      <div className="absolute top-0 right-12 sm:right-32 h-48 z-0 hidden md:block">
         <Lantern chainLength={90} swayDuration={8} intensity="soft" glowColor="rgba(190, 140, 80, 0.35)" />
       </div>
 

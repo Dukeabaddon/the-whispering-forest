@@ -3,35 +3,35 @@ import { NewsItem, Character, LoreItem } from './types';
 export const NEWS_ITEMS: NewsItem[] = [
   {
     id: 'news-1',
-    date: '2026.05.20',
-    category: 'VISUAL',
-    titleEN: 'Teaser Visual Release - The Thorn Mage and the Sleigh Beggy',
-    titleJP: '第2弾キービジュアル解禁「棘の魔法使いと夜の愛し仔」',
-    content: 'The official visual website has updated with our second key teaser art. Designed by the chief animator, it showcases Chise Hatori leaning towards the enigmatic Elias Ainsworth in the shimmering dusk.'
+    date: '2023.10.05',
+    category: 'ON AIR',
+    titleEN: 'TV Anime Season 2 Part 2 Broadcast Begins',
+    titleJP: 'TVアニメ『魔法使いの嫁 SEASON2』第2クール放送開始',
+    content: 'The second half of the College Arc premieres. Chise Hatori faces new mysteries and dark forces inside the College, unraveling the curse of the forbidden grimoire alongside Elias and her classmates.'
   },
   {
     id: 'news-2',
-    date: '2026.05.14',
-    category: 'MUSIC',
-    titleEN: 'Opening Theme "Here" performed by JUNNA, Music by Junichi Matsumoto',
-    titleJP: '主題歌決定：JUNNA「Here」・音楽は松本淳一が担当',
-    content: 'We are proud to announce the musical direction. JUNNA delivers a powerful performance with "Here", coupled with atmospheric compositions from Junichi Matsumoto that capture the haunting beauty of Oxfordshire.'
+    date: '2023.04.06',
+    category: 'ON AIR',
+    titleEN: 'TV Anime Season 2 Part 1 Premiere',
+    titleJP: 'TVアニメ『魔法使いの嫁 SEASON2』第1クール放送開始',
+    content: 'Chise enters the College, a mutual aid society for mages, under Elias\'s protection. Studio Kafka takes over production, delivering gorgeous art and direction for the highly anticipated College Arc.'
   },
   {
     id: 'news-3',
-    date: '2026.04.28',
-    category: 'BLU-RAY',
-    titleEN: 'Limited Premium Edition Blu-ray Volume 1 Box Art Unveiled',
-    titleJP: 'BD＆DVD第1巻 豪華三方背BOXジャケットイラスト公開',
-    content: 'Volume 1 includes an exclusive 64-page fantasy artbook, a replica of Chise’s green obsidian protective talisman, and director’s cut commentary.'
+    date: '2022.09.05',
+    category: 'OAD',
+    titleEN: 'OAD Trilogy "The Boy from the West" Completed',
+    titleJP: 'OAD『西の少年と青嵐の騎士』全3部作 完結',
+    content: 'The final episode of the original animation DVD trilogy is released, bundled with manga volume 18. This special side-story follows a mortal boy named Gabriel and his encounter with the Wild Hunt.'
   },
   {
     id: 'news-4',
-    date: '2026.04.15',
-    category: 'EVENT',
-    titleEN: 'Exhibition at Kyoto Ancient Shrine - Original Canvas Displays',
-    titleJP: '京都の古刹にて特別絵画展：手書き美術背景の全貌',
-    content: 'A limited historical canvas showcase. Visitors can walk through illuminated forest backgrounds painted by hand with traditional watercolor and film grain overlays.'
+    date: '2017.10.07',
+    category: 'SEASON 1',
+    titleEN: 'TV Anime Season 1 Premiere & Broadcast',
+    titleJP: 'TVアニメ『魔法使いの嫁』第1期 放送開始',
+    content: 'The grand television adaptation of Kore Yamazaki\'s acclaimed manga series begins broadcasting, animated by Wit Studio. Follow Chise\'s first steps into the beautiful English countryside.'
   }
 ];
 
