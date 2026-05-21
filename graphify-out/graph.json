@@ -1,0 +1,2318 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "metadata.json",
+      "file_type": "code",
+      "source_file": "metadata.json",
+      "source_location": "L1",
+      "id": "metadata_json",
+      "community": 7,
+      "norm_label": "metadata.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "metadata.json",
+      "source_location": "L1",
+      "id": "the_whispering_forest_anime_landing_page_metadata_name",
+      "community": 7,
+      "norm_label": "name"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "metadata.json",
+      "source_location": "L1",
+      "id": "the_whispering_forest_anime_landing_page_metadata_description",
+      "community": 7,
+      "norm_label": "description"
+    },
+    {
+      "label": "requestFramePermissions",
+      "file_type": "code",
+      "source_file": "metadata.json",
+      "source_location": "L1",
+      "id": "the_whispering_forest_anime_landing_page_metadata_requestframepermissions",
+      "community": 7,
+      "norm_label": "requestframepermissions"
+    },
+    {
+      "label": "majorCapabilities",
+      "file_type": "code",
+      "source_file": "metadata.json",
+      "source_location": "L1",
+      "id": "the_whispering_forest_anime_landing_page_metadata_majorcapabilities",
+      "community": 7,
+      "norm_label": "majorcapabilities"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "id": "package_json",
+      "community": 5,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "id": "the_whispering_forest_anime_landing_page_package_name",
+      "community": 5,
+      "norm_label": "name"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "id": "the_whispering_forest_anime_landing_page_package_private",
+      "community": 5,
+      "norm_label": "private"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "id": "the_whispering_forest_anime_landing_page_package_version",
+      "community": 5,
+      "norm_label": "version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "id": "the_whispering_forest_anime_landing_page_package_type",
+      "community": 5,
+      "norm_label": "type"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "id": "the_whispering_forest_anime_landing_page_package_scripts",
+      "community": 5,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "id": "the_whispering_forest_anime_landing_page_package_scripts_dev",
+      "community": 5,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "id": "the_whispering_forest_anime_landing_page_package_scripts_build",
+      "community": 5,
+      "norm_label": "build"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "id": "the_whispering_forest_anime_landing_page_package_scripts_preview",
+      "community": 5,
+      "norm_label": "preview"
+    },
+    {
+      "label": "clean",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "id": "the_whispering_forest_anime_landing_page_package_scripts_clean",
+      "community": 5,
+      "norm_label": "clean"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "id": "the_whispering_forest_anime_landing_page_package_scripts_lint",
+      "community": 5,
+      "norm_label": "lint"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "id": "the_whispering_forest_anime_landing_page_package_dependencies",
+      "community": 4,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "@google/genai",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "id": "the_whispering_forest_anime_landing_page_package_dependencies_google_genai",
+      "community": 4,
+      "norm_label": "@google/genai"
+    },
+    {
+      "label": "@tailwindcss/vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "id": "the_whispering_forest_anime_landing_page_package_dependencies_tailwindcss_vite",
+      "community": 4,
+      "norm_label": "@tailwindcss/vite"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "id": "the_whispering_forest_anime_landing_page_package_dependencies_vitejs_plugin_react",
+      "community": 4,
+      "norm_label": "@vitejs/plugin-react"
+    },
+    {
+      "label": "lucide-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "id": "the_whispering_forest_anime_landing_page_package_dependencies_lucide_react",
+      "community": 4,
+      "norm_label": "lucide-react"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "id": "the_whispering_forest_anime_landing_page_package_dependencies_react",
+      "community": 4,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "id": "the_whispering_forest_anime_landing_page_package_dependencies_react_dom",
+      "community": 4,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "id": "the_whispering_forest_anime_landing_page_package_dependencies_vite",
+      "community": 4,
+      "norm_label": "vite"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "id": "the_whispering_forest_anime_landing_page_package_dependencies_express",
+      "community": 4,
+      "norm_label": "express"
+    },
+    {
+      "label": "dotenv",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "id": "the_whispering_forest_anime_landing_page_package_dependencies_dotenv",
+      "community": 4,
+      "norm_label": "dotenv"
+    },
+    {
+      "label": "motion",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "id": "the_whispering_forest_anime_landing_page_package_dependencies_motion",
+      "community": 4,
+      "norm_label": "motion"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "id": "the_whispering_forest_anime_landing_page_package_devdependencies",
+      "community": 6,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "id": "the_whispering_forest_anime_landing_page_package_devdependencies_types_node",
+      "community": 6,
+      "norm_label": "@types/node"
+    },
+    {
+      "label": "autoprefixer",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "id": "the_whispering_forest_anime_landing_page_package_devdependencies_autoprefixer",
+      "community": 6,
+      "norm_label": "autoprefixer"
+    },
+    {
+      "label": "esbuild",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "id": "the_whispering_forest_anime_landing_page_package_devdependencies_esbuild",
+      "community": 6,
+      "norm_label": "esbuild"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "id": "the_whispering_forest_anime_landing_page_package_devdependencies_tailwindcss",
+      "community": 6,
+      "norm_label": "tailwindcss"
+    },
+    {
+      "label": "tsx",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "id": "the_whispering_forest_anime_landing_page_package_devdependencies_tsx",
+      "community": 6,
+      "norm_label": "tsx"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "id": "the_whispering_forest_anime_landing_page_package_devdependencies_typescript",
+      "community": 6,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "id": "the_whispering_forest_anime_landing_page_package_devdependencies_vite",
+      "community": 6,
+      "norm_label": "vite"
+    },
+    {
+      "label": "@types/express",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "id": "the_whispering_forest_anime_landing_page_package_devdependencies_types_express",
+      "community": 6,
+      "norm_label": "@types/express"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L1",
+      "id": "tsconfig_json",
+      "community": 1,
+      "norm_label": "tsconfig.json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "id": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions",
+      "community": 1,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "target",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "id": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_target",
+      "community": 1,
+      "norm_label": "target"
+    },
+    {
+      "label": "experimentalDecorators",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "id": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_experimentaldecorators",
+      "community": 1,
+      "norm_label": "experimentaldecorators"
+    },
+    {
+      "label": "useDefineForClassFields",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "id": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_usedefineforclassfields",
+      "community": 1,
+      "norm_label": "usedefineforclassfields"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "id": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_module",
+      "community": 1,
+      "norm_label": "module"
+    },
+    {
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "id": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_lib",
+      "community": 1,
+      "norm_label": "lib"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "id": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_skiplibcheck",
+      "community": 1,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "id": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_moduleresolution",
+      "community": 1,
+      "norm_label": "moduleresolution"
+    },
+    {
+      "label": "isolatedModules",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "id": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_isolatedmodules",
+      "community": 1,
+      "norm_label": "isolatedmodules"
+    },
+    {
+      "label": "moduleDetection",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "id": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_moduledetection",
+      "community": 1,
+      "norm_label": "moduledetection"
+    },
+    {
+      "label": "allowJs",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "id": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_allowjs",
+      "community": 1,
+      "norm_label": "allowjs"
+    },
+    {
+      "label": "jsx",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L17",
+      "id": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_jsx",
+      "community": 1,
+      "norm_label": "jsx"
+    },
+    {
+      "label": "paths",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L18",
+      "id": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_paths",
+      "community": 1,
+      "norm_label": "paths"
+    },
+    {
+      "label": "@/*",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L19",
+      "id": "the_whispering_forest_anime_landing_page_tsconfig_paths",
+      "community": 1,
+      "norm_label": "@/*"
+    },
+    {
+      "label": "allowImportingTsExtensions",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L23",
+      "id": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_allowimportingtsextensions",
+      "community": 1,
+      "norm_label": "allowimportingtsextensions"
+    },
+    {
+      "label": "noEmit",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L24",
+      "id": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_noemit",
+      "community": 1,
+      "norm_label": "noemit"
+    },
+    {
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "vite.config.ts",
+      "source_location": "L1",
+      "id": "vite_config_ts",
+      "community": 16,
+      "norm_label": "vite.config.ts"
+    },
+    {
+      "label": "launch.json",
+      "file_type": "code",
+      "source_file": ".vscode/launch.json",
+      "source_location": "L1",
+      "id": "vscode_launch_json",
+      "community": 11,
+      "norm_label": "launch.json"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": ".vscode/launch.json",
+      "source_location": "L2",
+      "id": "vscode_launch_version",
+      "community": 11,
+      "norm_label": "version"
+    },
+    {
+      "label": "configurations",
+      "file_type": "code",
+      "source_file": ".vscode/launch.json",
+      "source_location": "L3",
+      "id": "vscode_launch_configurations",
+      "community": 11,
+      "norm_label": "configurations"
+    },
+    {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L1",
+      "id": "vscode_settings_json",
+      "community": 15,
+      "norm_label": "settings.json"
+    },
+    {
+      "label": "workbench.startupEditor",
+      "file_type": "code",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L2",
+      "id": "vscode_settings_workbench_startupeditor",
+      "community": 15,
+      "norm_label": "workbench.startupeditor"
+    },
+    {
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L1",
+      "id": "src_app_tsx",
+      "community": 3,
+      "norm_label": "app.tsx"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L17",
+      "id": "src_app_app",
+      "community": 3,
+      "norm_label": "app()"
+    },
+    {
+      "label": "data.ts",
+      "file_type": "code",
+      "source_file": "src/data.ts",
+      "source_location": "L1",
+      "id": "src_data_ts",
+      "community": 0,
+      "norm_label": "data.ts"
+    },
+    {
+      "label": "NEWS_ITEMS",
+      "file_type": "code",
+      "source_file": "src/data.ts",
+      "source_location": "L3",
+      "id": "src_data_news_items",
+      "community": 0,
+      "norm_label": "news_items"
+    },
+    {
+      "label": "CHARACTERS",
+      "file_type": "code",
+      "source_file": "src/data.ts",
+      "source_location": "L38",
+      "id": "src_data_characters",
+      "community": 0,
+      "norm_label": "characters"
+    },
+    {
+      "label": "LORE_ITEMS",
+      "file_type": "code",
+      "source_file": "src/data.ts",
+      "source_location": "L86",
+      "id": "src_data_lore_items",
+      "community": 0,
+      "norm_label": "lore_items"
+    },
+    {
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "src/main.tsx",
+      "source_location": "L1",
+      "id": "src_main_tsx",
+      "community": 3,
+      "norm_label": "main.tsx"
+    },
+    {
+      "label": "types.ts",
+      "file_type": "code",
+      "source_file": "src/types.ts",
+      "source_location": "L1",
+      "id": "src_types_ts",
+      "community": 0,
+      "norm_label": "types.ts"
+    },
+    {
+      "label": "NewsItem",
+      "file_type": "code",
+      "source_file": "src/types.ts",
+      "source_location": "L1",
+      "id": "src_types_newsitem",
+      "community": 0,
+      "norm_label": "newsitem"
+    },
+    {
+      "label": "Character",
+      "file_type": "code",
+      "source_file": "src/types.ts",
+      "source_location": "L10",
+      "id": "src_types_character",
+      "community": 0,
+      "norm_label": "character"
+    },
+    {
+      "label": "LoreItem",
+      "file_type": "code",
+      "source_file": "src/types.ts",
+      "source_location": "L26",
+      "id": "src_types_loreitem",
+      "community": 0,
+      "norm_label": "loreitem"
+    },
+    {
+      "label": "CharactersSection.tsx",
+      "file_type": "code",
+      "source_file": "src/components/CharactersSection.tsx",
+      "source_location": "L1",
+      "id": "src_components_characterssection_tsx",
+      "community": 0,
+      "norm_label": "characterssection.tsx"
+    },
+    {
+      "label": "CharactersSection()",
+      "file_type": "code",
+      "source_file": "src/components/CharactersSection.tsx",
+      "source_location": "L6",
+      "id": "components_characterssection_characterssection",
+      "community": 0,
+      "norm_label": "characterssection()"
+    },
+    {
+      "label": "Footer.tsx",
+      "file_type": "code",
+      "source_file": "src/components/Footer.tsx",
+      "source_location": "L1",
+      "id": "src_components_footer_tsx",
+      "community": 3,
+      "norm_label": "footer.tsx"
+    },
+    {
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "src/components/Footer.tsx",
+      "source_location": "L4",
+      "id": "components_footer_footer",
+      "community": 3,
+      "norm_label": "footer()"
+    },
+    {
+      "label": "GnarledTree.tsx",
+      "file_type": "code",
+      "source_file": "src/components/GnarledTree.tsx",
+      "source_location": "L1",
+      "id": "src_components_gnarledtree_tsx",
+      "community": 8,
+      "norm_label": "gnarledtree.tsx"
+    },
+    {
+      "label": "TreeProps",
+      "file_type": "code",
+      "source_file": "src/components/GnarledTree.tsx",
+      "source_location": "L1",
+      "id": "components_gnarledtree_treeprops",
+      "community": 8,
+      "norm_label": "treeprops"
+    },
+    {
+      "label": "GnarledTree()",
+      "file_type": "code",
+      "source_file": "src/components/GnarledTree.tsx",
+      "source_location": "L7",
+      "id": "components_gnarledtree_gnarledtree",
+      "community": 8,
+      "norm_label": "gnarledtree()"
+    },
+    {
+      "label": "HeroSection.tsx",
+      "file_type": "code",
+      "source_file": "src/components/HeroSection.tsx",
+      "source_location": "L1",
+      "id": "src_components_herosection_tsx",
+      "community": 3,
+      "norm_label": "herosection.tsx"
+    },
+    {
+      "label": "HeroSection()",
+      "file_type": "code",
+      "source_file": "src/components/HeroSection.tsx",
+      "source_location": "L5",
+      "id": "components_herosection_herosection",
+      "community": 3,
+      "norm_label": "herosection()"
+    },
+    {
+      "label": "Lantern.tsx",
+      "file_type": "code",
+      "source_file": "src/components/Lantern.tsx",
+      "source_location": "L1",
+      "id": "src_components_lantern_tsx",
+      "community": 0,
+      "norm_label": "lantern.tsx"
+    },
+    {
+      "label": "LanternProps",
+      "file_type": "code",
+      "source_file": "src/components/Lantern.tsx",
+      "source_location": "L3",
+      "id": "components_lantern_lanternprops",
+      "community": 0,
+      "norm_label": "lanternprops"
+    },
+    {
+      "label": "Lantern()",
+      "file_type": "code",
+      "source_file": "src/components/Lantern.tsx",
+      "source_location": "L11",
+      "id": "components_lantern_lantern",
+      "community": 0,
+      "norm_label": "lantern()"
+    },
+    {
+      "label": "NewsSection.tsx",
+      "file_type": "code",
+      "source_file": "src/components/NewsSection.tsx",
+      "source_location": "L1",
+      "id": "src_components_newssection_tsx",
+      "community": 0,
+      "norm_label": "newssection.tsx"
+    },
+    {
+      "label": "NewsSection()",
+      "file_type": "code",
+      "source_file": "src/components/NewsSection.tsx",
+      "source_location": "L5",
+      "id": "components_newssection_newssection",
+      "community": 0,
+      "norm_label": "newssection()"
+    },
+    {
+      "label": "ParticleCanvas.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ParticleCanvas.tsx",
+      "source_location": "L1",
+      "id": "src_components_particlecanvas_tsx",
+      "community": 3,
+      "norm_label": "particlecanvas.tsx"
+    },
+    {
+      "label": "Particle",
+      "file_type": "code",
+      "source_file": "src/components/ParticleCanvas.tsx",
+      "source_location": "L3",
+      "id": "components_particlecanvas_particle",
+      "community": 3,
+      "norm_label": "particle"
+    },
+    {
+      "label": "ParticleCanvas()",
+      "file_type": "code",
+      "source_file": "src/components/ParticleCanvas.tsx",
+      "source_location": "L16",
+      "id": "components_particlecanvas_particlecanvas",
+      "community": 3,
+      "norm_label": "particlecanvas()"
+    },
+    {
+      "label": "StorySection.tsx",
+      "file_type": "code",
+      "source_file": "src/components/StorySection.tsx",
+      "source_location": "L1",
+      "id": "src_components_storysection_tsx",
+      "community": 8,
+      "norm_label": "storysection.tsx"
+    },
+    {
+      "label": "StorySection()",
+      "file_type": "code",
+      "source_file": "src/components/StorySection.tsx",
+      "source_location": "L4",
+      "id": "components_storysection_storysection",
+      "community": 8,
+      "norm_label": "storysection()"
+    },
+    {
+      "label": "SwayingSylvanTree.tsx",
+      "file_type": "code",
+      "source_file": "src/components/SwayingSylvanTree.tsx",
+      "source_location": "L1",
+      "id": "src_components_swayingsylvantree_tsx",
+      "community": 14,
+      "norm_label": "swayingsylvantree.tsx"
+    },
+    {
+      "label": "SwayingSylvanTree()",
+      "file_type": "code",
+      "source_file": "src/components/SwayingSylvanTree.tsx",
+      "source_location": "L3",
+      "id": "components_swayingsylvantree_swayingsylvantree",
+      "community": 14,
+      "norm_label": "swayingsylvantree()"
+    },
+    {
+      "label": "TrailerSection.tsx",
+      "file_type": "code",
+      "source_file": "src/components/TrailerSection.tsx",
+      "source_location": "L1",
+      "id": "src_components_trailersection_tsx",
+      "community": 3,
+      "norm_label": "trailersection.tsx"
+    },
+    {
+      "label": "TrailerSlide",
+      "file_type": "code",
+      "source_file": "src/components/TrailerSection.tsx",
+      "source_location": "L5",
+      "id": "components_trailersection_trailerslide",
+      "community": 3,
+      "norm_label": "trailerslide"
+    },
+    {
+      "label": "CINEMATIC_SLIDES",
+      "file_type": "code",
+      "source_file": "src/components/TrailerSection.tsx",
+      "source_location": "L14",
+      "id": "components_trailersection_cinematic_slides",
+      "community": 3,
+      "norm_label": "cinematic_slides"
+    },
+    {
+      "label": "TrailerSection()",
+      "file_type": "code",
+      "source_file": "src/components/TrailerSection.tsx",
+      "source_location": "L49",
+      "id": "components_trailersection_trailersection",
+      "community": 3,
+      "norm_label": "trailersection()"
+    },
+    {
+      "label": "WorldSection.tsx",
+      "file_type": "code",
+      "source_file": "src/components/WorldSection.tsx",
+      "source_location": "L1",
+      "id": "src_components_worldsection_tsx",
+      "community": 0,
+      "norm_label": "worldsection.tsx"
+    },
+    {
+      "label": "WorldSection()",
+      "file_type": "code",
+      "source_file": "src/components/WorldSection.tsx",
+      "source_location": "L6",
+      "id": "components_worldsection_worldsection",
+      "community": 0,
+      "norm_label": "worldsection()"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 10,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Run and deploy your AI Studio app",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "id": "the_whispering_forest_anime_landing_page_readme_run_and_deploy_your_ai_studio_app",
+      "community": 10,
+      "norm_label": "run and deploy your ai studio app"
+    },
+    {
+      "label": "Run Locally",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L10",
+      "id": "the_whispering_forest_anime_landing_page_readme_run_locally",
+      "community": 10,
+      "norm_label": "run locally"
+    },
+    {
+      "label": "graphify.md",
+      "file_type": "document",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L1",
+      "id": "agents_rules_graphify_md",
+      "community": 12,
+      "norm_label": "graphify.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6",
+      "id": "rules_graphify_graphify",
+      "community": 12,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "rules.md",
+      "file_type": "document",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L1",
+      "id": "agents_rules_rules_md",
+      "community": 2,
+      "norm_label": "rules.md"
+    },
+    {
+      "label": "Token-Efficient Workflow Rules",
+      "file_type": "document",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L6",
+      "id": "rules_rules_token_efficient_workflow_rules",
+      "community": 2,
+      "norm_label": "token-efficient workflow rules"
+    },
+    {
+      "label": "Core Workflow",
+      "file_type": "document",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L8",
+      "id": "rules_rules_core_workflow",
+      "community": 2,
+      "norm_label": "core workflow"
+    },
+    {
+      "label": "Installation Workflow",
+      "file_type": "document",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L34",
+      "id": "rules_rules_installation_workflow",
+      "community": 2,
+      "norm_label": "installation workflow"
+    },
+    {
+      "label": "Recommended Strategy",
+      "file_type": "document",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L47",
+      "id": "rules_rules_recommended_strategy",
+      "community": 2,
+      "norm_label": "recommended strategy"
+    },
+    {
+      "label": "Preferred Workflow Priority",
+      "file_type": "document",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L68",
+      "id": "rules_rules_preferred_workflow_priority",
+      "community": 2,
+      "norm_label": "preferred workflow priority"
+    },
+    {
+      "label": "Gate-MCP Rules",
+      "file_type": "document",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L83",
+      "id": "rules_rules_gate_mcp_rules",
+      "community": 2,
+      "norm_label": "gate-mcp rules"
+    },
+    {
+      "label": "Graphifyy Rules",
+      "file_type": "document",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L95",
+      "id": "rules_rules_graphifyy_rules",
+      "community": 2,
+      "norm_label": "graphifyy rules"
+    },
+    {
+      "label": "Caveman Output Mode",
+      "file_type": "document",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L111",
+      "id": "rules_rules_caveman_output_mode",
+      "community": 2,
+      "norm_label": "caveman output mode"
+    },
+    {
+      "label": "Output Rules",
+      "file_type": "document",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L137",
+      "id": "rules_rules_output_rules",
+      "community": 2,
+      "norm_label": "output rules"
+    },
+    {
+      "label": "Mentor Persona",
+      "file_type": "document",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L153",
+      "id": "rules_rules_mentor_persona",
+      "community": 2,
+      "norm_label": "mentor persona"
+    },
+    {
+      "label": "Debugging Rules",
+      "file_type": "document",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L179",
+      "id": "rules_rules_debugging_rules",
+      "community": 2,
+      "norm_label": "debugging rules"
+    },
+    {
+      "label": "Token Optimization Rules",
+      "file_type": "document",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L201",
+      "id": "rules_rules_token_optimization_rules",
+      "community": 2,
+      "norm_label": "token optimization rules"
+    },
+    {
+      "label": "Response Style Examples",
+      "file_type": "document",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L221",
+      "id": "rules_rules_response_style_examples",
+      "community": 2,
+      "norm_label": "response style examples"
+    },
+    {
+      "label": "Final Rule",
+      "file_type": "document",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L233",
+      "id": "rules_rules_final_rule",
+      "community": 2,
+      "norm_label": "final rule"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".agents/skills/my-skill/SKILL.md",
+      "source_location": "L1",
+      "id": "agents_skills_my_skill_skill_md",
+      "community": 9,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "My Custom Skill",
+      "file_type": "document",
+      "source_file": ".agents/skills/my-skill/SKILL.md",
+      "source_location": "L6",
+      "id": "my_skill_skill_my_custom_skill",
+      "community": 9,
+      "norm_label": "my custom skill"
+    },
+    {
+      "label": "How to use this skill",
+      "file_type": "document",
+      "source_file": ".agents/skills/my-skill/SKILL.md",
+      "source_location": "L10",
+      "id": "my_skill_skill_how_to_use_this_skill",
+      "community": 9,
+      "norm_label": "how to use this skill"
+    },
+    {
+      "label": "Steps & Workflow",
+      "file_type": "document",
+      "source_file": ".agents/skills/my-skill/SKILL.md",
+      "source_location": "L15",
+      "id": "my_skill_skill_steps_workflow",
+      "community": 9,
+      "norm_label": "steps & workflow"
+    },
+    {
+      "label": "graphify.md",
+      "file_type": "document",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L1",
+      "id": "agents_workflows_graphify_md",
+      "community": 13,
+      "norm_label": "graphify.md"
+    },
+    {
+      "label": "Workflow: graphify",
+      "file_type": "document",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6",
+      "id": "workflows_graphify_workflow_graphify",
+      "community": 13,
+      "norm_label": "workflow: graphify"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "metadata.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "metadata_json",
+      "target": "the_whispering_forest_anime_landing_page_metadata_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "metadata.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "metadata_json",
+      "target": "the_whispering_forest_anime_landing_page_metadata_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "metadata.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "metadata_json",
+      "target": "the_whispering_forest_anime_landing_page_metadata_requestframepermissions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "metadata.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "metadata_json",
+      "target": "the_whispering_forest_anime_landing_page_metadata_majorcapabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "the_whispering_forest_anime_landing_page_package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "the_whispering_forest_anime_landing_page_package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "the_whispering_forest_anime_landing_page_package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "the_whispering_forest_anime_landing_page_package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "the_whispering_forest_anime_landing_page_package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "the_whispering_forest_anime_landing_page_package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "the_whispering_forest_anime_landing_page_package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_scripts",
+      "target": "the_whispering_forest_anime_landing_page_package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_scripts",
+      "target": "the_whispering_forest_anime_landing_page_package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_scripts",
+      "target": "the_whispering_forest_anime_landing_page_package_scripts_preview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_scripts",
+      "target": "the_whispering_forest_anime_landing_page_package_scripts_clean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_scripts",
+      "target": "the_whispering_forest_anime_landing_page_package_scripts_lint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_dependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_dependencies_google_genai",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_dependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_dependencies_tailwindcss_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_dependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_dependencies_vitejs_plugin_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_dependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_dependencies_lucide_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_dependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_dependencies_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_dependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_dependencies_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_dependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_dependencies_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_dependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_dependencies_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_dependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_dependencies_dotenv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_dependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_dependencies_motion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_devdependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_devdependencies_types_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_devdependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_devdependencies_autoprefixer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_devdependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_devdependencies_esbuild",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_devdependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_devdependencies_tailwindcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_devdependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_devdependencies_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_devdependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_devdependencies_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_devdependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_devdependencies_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_package_devdependencies",
+      "target": "the_whispering_forest_anime_landing_page_package_devdependencies_types_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "tsconfig_json",
+      "target": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions",
+      "target": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_target",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions",
+      "target": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_experimentaldecorators",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions",
+      "target": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_usedefineforclassfields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions",
+      "target": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions",
+      "target": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_lib",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions",
+      "target": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_skiplibcheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions",
+      "target": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_moduleresolution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions",
+      "target": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_isolatedmodules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions",
+      "target": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_moduledetection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions",
+      "target": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_allowjs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions",
+      "target": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions",
+      "target": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_paths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions",
+      "target": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_allowimportingtsextensions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions",
+      "target": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_noemit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_tsconfig_compileroptions_paths",
+      "target": "the_whispering_forest_anime_landing_page_tsconfig_paths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".vscode/launch.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "vscode_launch_json",
+      "target": "vscode_launch_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".vscode/launch.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "vscode_launch_json",
+      "target": "vscode_launch_configurations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "vscode_settings_json",
+      "target": "vscode_settings_workbench_startupeditor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_components_particlecanvas_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_components_herosection_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_components_newssection_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_components_storysection_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_components_characterssection_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_components_worldsection_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_components_trailersection_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_components_footer_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_app_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_data_ts",
+      "target": "src_types_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_data_ts",
+      "target": "src_types_newsitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_data_ts",
+      "target": "src_types_character",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_data_ts",
+      "target": "src_types_loreitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_data_ts",
+      "target": "src_data_news_items",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.ts",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "src_data_ts",
+      "target": "src_data_characters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.ts",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "src_data_ts",
+      "target": "src_data_lore_items",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/CharactersSection.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_characterssection_tsx",
+      "target": "src_data_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/NewsSection.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_components_newssection_tsx",
+      "target": "src_data_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/WorldSection.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_worldsection_tsx",
+      "target": "src_data_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/NewsSection.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_components_newssection_tsx",
+      "target": "src_data_news_items",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/CharactersSection.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_characterssection_tsx",
+      "target": "src_data_characters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/WorldSection.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_worldsection_tsx",
+      "target": "src_data_lore_items",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/types.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_types_ts",
+      "target": "src_types_newsitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/types.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_types_ts",
+      "target": "src_types_character",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/types.ts",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "src_types_ts",
+      "target": "src_types_loreitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/CharactersSection.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_characterssection_tsx",
+      "target": "components_characterssection_characterssection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_components_footer_tsx",
+      "target": "components_footer_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/GnarledTree.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_components_gnarledtree_tsx",
+      "target": "components_gnarledtree_treeprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/GnarledTree.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_components_gnarledtree_tsx",
+      "target": "components_gnarledtree_gnarledtree",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/StorySection.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_storysection_tsx",
+      "target": "src_components_gnarledtree_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/HeroSection.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_herosection_tsx",
+      "target": "components_herosection_herosection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Lantern.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_lantern_tsx",
+      "target": "components_lantern_lanternprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Lantern.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_components_lantern_tsx",
+      "target": "components_lantern_lantern",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/NewsSection.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_newssection_tsx",
+      "target": "src_components_lantern_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/NewsSection.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_newssection_tsx",
+      "target": "components_newssection_newssection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ParticleCanvas.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_particlecanvas_tsx",
+      "target": "components_particlecanvas_particle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ParticleCanvas.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_components_particlecanvas_tsx",
+      "target": "components_particlecanvas_particlecanvas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/StorySection.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_components_storysection_tsx",
+      "target": "components_storysection_storysection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/SwayingSylvanTree.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_swayingsylvantree_tsx",
+      "target": "components_swayingsylvantree_swayingsylvantree",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/TrailerSection.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_trailersection_tsx",
+      "target": "components_trailersection_trailerslide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/TrailerSection.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_components_trailersection_tsx",
+      "target": "components_trailersection_cinematic_slides",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/TrailerSection.tsx",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "src_components_trailersection_tsx",
+      "target": "components_trailersection_trailersection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/WorldSection.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_worldsection_tsx",
+      "target": "components_worldsection_worldsection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "the_whispering_forest_anime_landing_page_readme_run_and_deploy_your_ai_studio_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "the_whispering_forest_anime_landing_page_readme_run_and_deploy_your_ai_studio_app",
+      "target": "the_whispering_forest_anime_landing_page_readme_run_locally",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "agents_rules_graphify_md",
+      "target": "rules_graphify_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "agents_rules_rules_md",
+      "target": "rules_rules_token_efficient_workflow_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "rules_rules_token_efficient_workflow_rules",
+      "target": "rules_rules_core_workflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "rules_rules_token_efficient_workflow_rules",
+      "target": "rules_rules_installation_workflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "rules_rules_token_efficient_workflow_rules",
+      "target": "rules_rules_preferred_workflow_priority",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "rules_rules_token_efficient_workflow_rules",
+      "target": "rules_rules_gate_mcp_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "rules_rules_token_efficient_workflow_rules",
+      "target": "rules_rules_graphifyy_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "rules_rules_token_efficient_workflow_rules",
+      "target": "rules_rules_caveman_output_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "rules_rules_token_efficient_workflow_rules",
+      "target": "rules_rules_output_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "rules_rules_token_efficient_workflow_rules",
+      "target": "rules_rules_mentor_persona",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L179",
+      "weight": 1.0,
+      "source": "rules_rules_token_efficient_workflow_rules",
+      "target": "rules_rules_debugging_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L201",
+      "weight": 1.0,
+      "source": "rules_rules_token_efficient_workflow_rules",
+      "target": "rules_rules_token_optimization_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L221",
+      "weight": 1.0,
+      "source": "rules_rules_token_efficient_workflow_rules",
+      "target": "rules_rules_response_style_examples",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L233",
+      "weight": 1.0,
+      "source": "rules_rules_token_efficient_workflow_rules",
+      "target": "rules_rules_final_rule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/rules.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "rules_rules_installation_workflow",
+      "target": "rules_rules_recommended_strategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/my-skill/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "agents_skills_my_skill_skill_md",
+      "target": "my_skill_skill_my_custom_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/my-skill/SKILL.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "my_skill_skill_my_custom_skill",
+      "target": "my_skill_skill_how_to_use_this_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/my-skill/SKILL.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "my_skill_skill_my_custom_skill",
+      "target": "my_skill_skill_steps_workflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "agents_workflows_graphify_md",
+      "target": "workflows_graphify_workflow_graphify",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

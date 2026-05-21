@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500;600&family=Noto+Serif+JP:wght@200;300;400;500;700&family=Space+Grotesk:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cinzel", "Noto Serif JP", Georgia, serif;
+  --font-sans: "Space Grotesk", "Inter", sans-serif;
+  --font-mono: "Fira Code", monospace;
+
+  --color-forest-black: #0D0D0D;
+  --color-moss-green: #2F4633;
+  --color-ancient-bark: #3A2A22;
+  --color-parchment-beige: #E8DDC7;
+  --color-bone-white: #F4F1EA;
+  --color-ember-gold: #C89B5B;
+  --color-muted-crimson: #9C4B4B;
+  --color-lantern-glow: rgba(255, 210, 140, 0.18);
+}
+
+/* Custom global sylvan styling overrides */
+html {
+  scroll-behavior: smooth;
+  background-color: #0d0d0d;
+}
+
+/* Custom scroll bar representing decaying ancient vine bark */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #251B17;
+  border-radius: 3px;
+  border: 1px solid #140F0D;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3A2A22;
+}
+
+/* Selection highlight matches glowing amber gold */
+::selection {
+  background-color: rgba(200, 155, 91, 0.25);
+  color: #F4F1EA;
+}
+
+/* Base style resets */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: #F4F1EA;
+}
+
+/* Seamless custom cinematic utilities */
+.bg-radial-gradient {
+  background-image: radial-gradient(var(--tw-gradient-stops));
+}
+
+.bg-gradient-radial {
+  background-image: radial-gradient(circle, var(--tw-gradient-stops));
+}
+
+/* Film noise overlays representing visual novel printed paper textures */
+.bg-noise {
+  background-image: radial-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%), 
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 2px);
+}

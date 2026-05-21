@@ -1,0 +1,137 @@
+{
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\metadata.json": {
+    "mtime": 1779381136.3439565,
+    "ast_hash": "c32e154bcccb1b3d00221b765ce4e4bc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\package.json": {
+    "mtime": 1779381136.3444872,
+    "ast_hash": "9488b67920a9c77b7d1ff529cd41da14",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\tsconfig.json": {
+    "mtime": 1779381136.347168,
+    "ast_hash": "8827451c4e35790dd3f3538c265e7d15",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\vite.config.ts": {
+    "mtime": 1779381136.3477032,
+    "ast_hash": "9c319043c25764dfe83b687f74637c6c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\.vscode\\launch.json": {
+    "mtime": 1779381136.3575263,
+    "ast_hash": "103ff7f277af9d288c9213b0b75ddf86",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\.vscode\\settings.json": {
+    "mtime": 1779381136.358083,
+    "ast_hash": "a4e3f0c31e6cf93f76953ab6dfdd082b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\src\\App.tsx": {
+    "mtime": 1779381136.3455844,
+    "ast_hash": "7793046ad823a5faca6140a120f930ec",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\src\\data.ts": {
+    "mtime": 1779381136.3482406,
+    "ast_hash": "b99dc037b5232226cf7cae365603b2bd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\src\\main.tsx": {
+    "mtime": 1779381136.3466396,
+    "ast_hash": "2b36426d5ad7e08ef79746aa524f4fb7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\src\\types.ts": {
+    "mtime": 1779381136.3477032,
+    "ast_hash": "902816ce3ec637e9c1082fa9282b63e8",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\src\\components\\CharactersSection.tsx": {
+    "mtime": 1779381136.3536644,
+    "ast_hash": "ceed733596b24fb33afac5a6333d9ee5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\src\\components\\Footer.tsx": {
+    "mtime": 1779381136.3559155,
+    "ast_hash": "cbb51019b186e727fa41759855994978",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\src\\components\\GnarledTree.tsx": {
+    "mtime": 1779381136.3504367,
+    "ast_hash": "3059c89f624445fa3f6f30ad2c62fa21",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\src\\components\\HeroSection.tsx": {
+    "mtime": 1779381136.3515227,
+    "ast_hash": "e8d4df77d9dc89f83413804f0b0fb363",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\src\\components\\Lantern.tsx": {
+    "mtime": 1779381136.3498845,
+    "ast_hash": "ac39272730dc3878e60c6066c66130dd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\src\\components\\NewsSection.tsx": {
+    "mtime": 1779381136.3520765,
+    "ast_hash": "a462d16b69e2f51cc2ae535133033d8d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\src\\components\\ParticleCanvas.tsx": {
+    "mtime": 1779381136.3493378,
+    "ast_hash": "7c65dfb4a3363093095b397033d2a34a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\src\\components\\StorySection.tsx": {
+    "mtime": 1779381136.3531327,
+    "ast_hash": "1b3208c926159be7ad9f1fb6dde6fa6a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\src\\components\\SwayingSylvanTree.tsx": {
+    "mtime": 1779381136.3569798,
+    "ast_hash": "00b5840df0a39f823a10ee1cebaf769d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\src\\components\\TrailerSection.tsx": {
+    "mtime": 1779381136.3553843,
+    "ast_hash": "fd9e20bb53da0a0abdec17bfcf2762cb",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\src\\components\\WorldSection.tsx": {
+    "mtime": 1779381136.3541903,
+    "ast_hash": "80b8be1dd75d6a9362698ce3b381ecdd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\index.html": {
+    "mtime": 1779381136.3434174,
+    "ast_hash": "dd627531a510864fc8471e7aeaeb04e1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\README.md": {
+    "mtime": 1779381136.3569798,
+    "ast_hash": "dae85214e98d33d7b73aebd951c32bb9",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\.agents\\rules\\graphify.md": {
+    "mtime": 1779382248.4960868,
+    "ast_hash": "a0e4d192b9e2e17256124dbfc8e24e6a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\.agents\\rules\\rules.md": {
+    "mtime": 1779382090.5865226,
+    "ast_hash": "1505c4f309d7356d973d8dab97b5e466",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\.agents\\skills\\my-skill\\SKILL.md": {
+    "mtime": 1779381969.6700814,
+    "ast_hash": "4126108ce5d294cd3d19a404460f2311",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Aaron\\antigravity\\The-Whispering-Forest---Anime-Landing-Page\\.agents\\workflows\\graphify.md": {
+    "mtime": 1779382248.498173,
+    "ast_hash": "84de69efd46ab0b8430393bd4188f8f2",
+    "semantic_hash": ""
+  }
+}
