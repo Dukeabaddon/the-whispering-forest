@@ -67,10 +67,10 @@ export default function Footer() {
 
         {/* Copyright claims */}
         <p className="font-serif text-[10px] text-[#FAF1EA]/40 tracking-widest leading-relaxed">
-          &copy; 「森の追悼歌」製作委員会 / Anamnesis of the Sacred Thicket Partners
+          &copy; ヤマザキコレ/マッグガーデン・魔法使いの嫁製作委員会
         </p>
         <p className="font-mono text-[8px] text-[#FAF1EA]/30 tracking-widest leading-relaxed uppercase mt-1">
-          This is an original atmospheric tribute. All rights reserved. 2026.
+          This is an original atmospheric tribute. All rights reserved.
         </p>
 
         {/* Small sylvan sigil */}

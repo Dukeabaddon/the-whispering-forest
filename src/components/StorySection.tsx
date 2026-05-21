@@ -3,40 +3,38 @@ import GnarledTree from './GnarledTree';
 
 export default function StorySection() {
   return (
-    <section 
-      id="story-section" 
+    <section
+      id="story-section"
       className="relative w-full py-28 sm:py-36 bg-gradient-to-b from-[#E8DDC7] via-[#2F4633]/65 to-[#0D0D0D] overflow-hidden flex flex-col items-center"
     >
-      {/* Smooth misty parchment-to-moss transition overlays (smooth blur & fade) */}
-      <div className="absolute top-0 inset-x-0 h-32 bg-gradient-to-b from-[#E8DDC7] to-transparent pointer-events-none z-10 opacity-95" />
-      <div className="absolute top-0 inset-x-0 h-44 bg-gradient-to-b from-[#E8DDC7] via-[#2F4633]/30 to-transparent pointer-events-none filter blur-xl z-10 opacity-70" />
+
 
       {/* BACKGROUND: Refined overlapping sylvan misty mountains and hills with pine tree silhouettes */}
       <div className="absolute inset-0 w-full h-full pointer-events-none select-none z-0 overflow-hidden">
         {/* Ambient glow in sky behind mountains */}
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[70vw] h-[40vh] bg-[#C89B5B]/12 rounded-full blur-3xl" />
-        
-        <svg 
-          className="absolute bottom-0 left-0 w-full h-[75%] min-h-[420px]" 
-          viewBox="0 0 1440 600" 
-          preserveAspectRatio="none" 
-          fill="none" 
+
+        <svg
+          className="absolute bottom-0 left-0 w-full h-[75%] min-h-[420px]"
+          viewBox="0 0 1440 600"
+          preserveAspectRatio="none"
+          fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           {/* Layer 1: Far, light misty mountains */}
-          <path 
-            d="M-100,280 C150,150 320,340 550,180 C780,50 980,240 1200,120 C1380,20 1480,180 1600,140 L1600,600 L-100,600 Z" 
-            fill="url(#far-mountain-grad)" 
-            opacity="0.32" 
+          <path
+            d="M-100,280 C150,150 320,340 550,180 C780,50 980,240 1200,120 C1380,20 1480,180 1600,140 L1600,600 L-100,600 Z"
+            fill="url(#far-mountain-grad)"
+            opacity="0.32"
           />
-          
+
           {/* Layer 2: Mid-distance hills with pine/fir silhouettes poking out of the ridge */}
-          <path 
-            d="M-100,380 C180,240 400,280 680,220 C900,170 1120,340 1350,260 C1480,200 1560,250 1600,240 L1600,600 L-100,600 Z" 
-            fill="url(#mid-mountain-grad)" 
-            opacity="0.75" 
+          <path
+            d="M-100,380 C180,240 400,280 680,220 C900,170 1120,340 1350,260 C1480,200 1560,250 1600,240 L1600,600 L-100,600 Z"
+            fill="url(#mid-mountain-grad)"
+            opacity="0.75"
           />
-          
+
           {/* Detailed tiered pine trees instead of simple pointy triangles */}
           {/* Left hills cluster */}
           <g opacity="0.65" transform="translate(100, 310) scale(0.6)">
@@ -54,7 +52,7 @@ export default function StorySection() {
           <g opacity="0.85" transform="translate(250, 260) scale(0.6)">
             <path d="M0,0 L-5,15 L-2,15 L-8,30 L-3,30 L-12,50 L12,50 L3,30 L8,30 L2,15 L5,15 Z" fill="#111B13" />
           </g>
-          
+
           {/* Mid Ridge hills cluster */}
           <g opacity="0.8" transform="translate(560, 205) scale(0.7)">
             <path d="M0,0 L-5,15 L-2,15 L-8,30 L-3,30 L-12,50 L12,50 L3,30 L8,30 L2,15 L5,15 Z" fill="#111B13" />
@@ -68,7 +66,7 @@ export default function StorySection() {
           <g opacity="0.85" transform="translate(740, 190) scale(0.65)">
             <path d="M0,0 L-5,15 L-2,15 L-8,30 L-3,30 L-12,50 L12,50 L3,30 L8,30 L2,15 L5,15 Z" fill="#0A110C" />
           </g>
-          
+
           {/* Right hills cluster */}
           <g opacity="0.7" transform="translate(1050, 230) scale(0.6)">
             <path d="M0,0 L-5,15 L-2,15 L-8,30 L-3,30 L-12,50 L12,50 L3,30 L8,30 L2,15 L5,15 Z" fill="#0A110C" />
@@ -84,15 +82,15 @@ export default function StorySection() {
           </g>
 
           {/* Layer 3: Foreground sweeping rolling slopes */}
-          <path 
-            d="M-100,460 C200,340 480,440 820,340 C1100,260 1350,430 1600,380 L1600,600 L-100,600 Z" 
-            fill="url(#fore-mountain-grad)" 
+          <path
+            d="M-100,460 C200,340 480,440 820,340 C1100,260 1350,430 1600,380 L1600,600 L-100,600 Z"
+            fill="url(#fore-mountain-grad)"
           />
-          
+
           {/* Layer 4: Close bottom shadow hill for absolute rich depth */}
-          <path 
-            d="M-100,500 C300,440 650,520 1100,440 C1280,410 1480,480 1600,460 L1600,600 L-100,600 Z" 
-            fill="url(#near-bottom-shadow)" 
+          <path
+            d="M-100,500 C300,440 650,520 1100,440 C1280,410 1480,480 1600,460 L1600,600 L-100,600 Z"
+            fill="url(#near-bottom-shadow)"
           />
 
           <defs>
@@ -120,18 +118,18 @@ export default function StorySection() {
         <div className="absolute inset-x-0 bottom-[35%] h-16 bg-gradient-to-t from-transparent via-[#FAF1EA]/5 to-transparent mix-blend-overlay pointer-events-none filter blur-lg" />
       </div>
 
-      <div 
+      <div
         className="absolute inset-0 pointer-events-none opacity-[0.05] mix-blend-color-burn"
-        style={{ 
+        style={{
           backgroundImage: `url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1200&q=80')`,
           backgroundSize: 'cover'
         }}
       />
 
       <div className="w-full max-w-5xl px-8 sm:px-12 relative z-10 flex flex-col md:flex-row items-center gap-16 md:gap-11">
-        
+
         {/* LEFT COLUMN: Poetic synopsis text (narrow, serif, literary) */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: '-10% 0px' }}
@@ -142,36 +140,36 @@ export default function StorySection() {
           <span className="font-mono text-[9px] tracking-[0.4em] text-[#9C4B4B] uppercase font-semibold mb-2 block">
             INTRODUCTION — 01
           </span>
-          
+
           <h2 className="font-serif text-3xl sm:text-4xl font-light text-[#1C120D] tracking-[0.18em] leading-tight mb-2">
             STORY <span className="font-sans font-light text-xs sm:text-sm text-[#3A2A22]/70 tracking-widest pl-2">( あらすじ )</span>
           </h2>
-          
+
           <div className="w-16 h-[1.5px] bg-[#9C4B4B]/30 mb-8" />
 
           {/* Japanese Poetic lines */}
           <div className="font-serif text-sm sm:text-base text-[#120B08] tracking-[0.2em] leading-relaxed mb-6 font-semibold select-none">
-            <p className="mb-3">緑深き境界の底、</p>
-            <p className="mb-3">少年は骸に寄り添い、</p>
-            <p className="">少女は春の記憶を紡ぐ。</p>
+            <p className="mb-3">絶望の果てに身を寄せた少女と、</p>
+            <p className="mb-3">人ならざる異形の魔法使い。</p>
+            <p className="">イギリスの古き森の奥、二人の物語が紡がれる。</p>
           </div>
 
           {/* Narrow editorial reading frame */}
           <div className="max-w-[360px] font-serif text-[13.5px] sm:text-[14.5px] tracking-[0.12em] leading-loose text-[#DFA6A6]">
             <p className="mb-5 drop-shadow-[0_1px_3px_rgba(0,0,0,0.65)] font-light">
-              Chise Hatori was born to expire early. Bearing the &ldquo;Sylvan Sight,&rdquo; her vital heat has been continuously drained by microscopic spirits residing in the moist soil of forgotten parishes. Shunned by kin who fear the invisible wisps swirling around her, she is guided into the heart of the forest.
+              Chise Hatori, a fifteen-year-old Japanese girl, was shunned by her relatives and had nowhere to go after her mother's tragic death. Possessing the rare nature of a &ldquo;Sleigh Beggy,&rdquo; she has the ability to see and attract otherworldly spirits, a gift that constantly drains her physical vitality and threatens to cut her life short.
             </p>
             <p className="mb-5 drop-shadow-[0_1px_3px_rgba(0,0,0,0.65)] font-light">
-              Deep in the ironwells, she is welcomed by Elias Ainsworth—a towering shadow-weaver with deer antlers and a bare animal bone skull. He binds her fading life to the forest root network through an irrevocable oath.
+              In a desperate bid for a place to belong, Chise sells herself at an underground London auction. She is purchased for five million pounds by Elias Ainsworth, a mysterious, non-human magus with a canine skull for a head. Elias takes Chise to his cozy cottage in the English countryside, intending to make her both his apprentice and his future bride.
             </p>
             <p className="italic text-[#E89E9E] text-[13px] sm:text-[14px] drop-shadow-[0_1px_3px_rgba(0,0,0,0.6)] mt-6">
-              &ldquo;One winter for your spring, the root bonds hold fast. Until our leaves dissolve into dirt.&rdquo;
+              &ldquo;I’ve decided that you’re going to be my apprentice. And my bride, too.&rdquo;
             </p>
           </div>
         </motion.div>
 
         {/* RIGHT COLUMN: Framed anime still image (slight rotation, postcard artwork feel) */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, scale: 0.96, rotate: 2 }}
           whileInView={{ opacity: 1, scale: 1, rotate: -2 }}
           viewport={{ once: true, margin: '-10% 0px' }}
@@ -180,19 +178,19 @@ export default function StorySection() {
         >
           {/* Framed Polaroid/Printed illustration artbook wrapper */}
           <div className="group relative bg-[#F4F1EA] p-4 sm:p-5 rounded-md shadow-[0_20px_40px_rgba(0,0,0,0.6)] border border-[#3A2A22]/15 w-full max-w-[370px] transform hover:rotate-0 hover:scale-[1.03] duration-500 cursor-pointer ease-[cubic-bezier(0.16,1,0.3,1)]">
-            
+
             {/* Visual Still (A quiet mossy cottage/ancient forest) */}
             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xs bg-[#0D0D0D]">
               {/* Overlay shadow inside glass */}
               <div className="absolute inset-0 z-10 pointer-events-none bg-gradient-to-t from-[#1C120D]/40 to-transparent" />
-              
-              <img 
-                src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=700&h=525&q=85" 
-                alt="Mystical ancient cottage background" 
+
+              <img
+                src="/images/landscapre-magus.jpg"
+                alt="Mystical ancient cottage background"
                 referrerPolicy="no-referrer"
-                className="w-full h-full object-cover filter brightness-[0.78] sepia-[20%] group-hover:scale-105 duration-700 ease-out" 
+                className="w-full h-full object-cover filter brightness-[0.78] sepia-[20%] group-hover:scale-105 duration-700 ease-out"
               />
-              
+
               {/* Stylized watercolor grain overlay */}
               <div className="absolute inset-0 pointer-events-none opacity-20 mix-blend-overlay bg-noise" />
             </div>
@@ -206,10 +204,10 @@ export default function StorySection() {
                 FRAME - 1042 / A
               </span>
             </div>
-            
+
             {/* Elegant Japanese text label */}
             <p className="mt-2 text-[10px] sm:text-[11px] font-serif text-[#1C120D] opacity-90 border-t border-[#3A2A22]/10 pt-2.5">
-              「第三話：朽ちた炭焼き小屋の精霊」より
+              「第1話 April showers bring May flowers.」より
             </p>
           </div>
         </motion.div>

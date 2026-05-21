@@ -5,17 +5,17 @@ export const NEWS_ITEMS: NewsItem[] = [
     id: 'news-1',
     date: '2026.05.20',
     category: 'VISUAL',
-    titleEN: 'Teaser Visual Release - The Vessel and the Ancient Antlered Mage',
-    titleJP: '第2弾キービジュアル解禁「精霊の依代と古の角の魔使い」',
-    content: 'The official visual website has updated with our second key teaser art. Designed by chief animator, it showcases Chise Hatori leaning towards the enigmatic Elias Ainsworth in the shimmering dusk of the Sacred Thicket.'
+    titleEN: 'Teaser Visual Release - The Thorn Mage and the Sleigh Beggy',
+    titleJP: '第2弾キービジュアル解禁「棘の魔法使いと夜の愛し仔」',
+    content: 'The official visual website has updated with our second key teaser art. Designed by the chief animator, it showcases Chise Hatori leaning towards the enigmatic Elias Ainsworth in the shimmering dusk.'
   },
   {
     id: 'news-2',
     date: '2026.05.14',
     category: 'MUSIC',
-    titleEN: 'Theme Song "Sylvan Requiem" performed by Kanno Yoko x Akiko',
-    titleJP: '主題歌アーティスト決定：菅野よう子×手嶌葵「森の追悼歌」',
-    content: 'We are proud to announce the theme song collaboration. Embodying the ancient forest solitude, the acoustic track features haunting vocals over classical strings and wind pipes.'
+    titleEN: 'Opening Theme "Here" performed by JUNNA, Music by Junichi Matsumoto',
+    titleJP: '主題歌決定：JUNNA「Here」・音楽は松本淳一が担当',
+    content: 'We are proud to announce the musical direction. JUNNA delivers a powerful performance with "Here", coupled with atmospheric compositions from Junichi Matsumoto that capture the haunting beauty of Oxfordshire.'
   },
   {
     id: 'news-3',
@@ -23,7 +23,7 @@ export const NEWS_ITEMS: NewsItem[] = [
     category: 'BLU-RAY',
     titleEN: 'Limited Premium Edition Blu-ray Volume 1 Box Art Unveiled',
     titleJP: 'BD＆DVD第1巻 豪華三方背BOXジャケットイラスト公開',
-    content: 'Volume 1 includes an exclusive 64-page fantasy artbook, a replica of Chise’s owl pendant talisman, and director’s cut commentary.'
+    content: 'Volume 1 includes an exclusive 64-page fantasy artbook, a replica of Chise’s green obsidian protective talisman, and director’s cut commentary.'
   },
   {
     id: 'news-4',

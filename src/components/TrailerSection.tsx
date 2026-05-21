@@ -14,33 +14,33 @@ interface TrailerSlide {
 const CINEMATIC_SLIDES: TrailerSlide[] = [
   {
     id: 1,
-    textJP: '「すべてを忘れた古の森が、最初の雪を語る。」',
-    textEN: '“An ancient forest that has forgotten everything, now whispers of the first snow.”',
-    subText: 'ACT I — THE FORGOTTEN WOODS',
+    textJP: '「五百万ポンドで買われた、身寄りのない少女。」',
+    textEN: '“A friendless girl, purchased for five million pounds.”',
+    subText: 'ACT I — THE AUCTION',
     bgImage: 'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80',
     intensity: 'brightness-[0.4] scale-105'
   },
   {
     id: 2,
-    textJP: '「血と鉄より生まれし契り。戻れぬ境界の底へ。」',
-    textEN: '“A pact bound in blood and cold iron. Drawn deep into the bottom of the boundary.”',
-    subText: 'ACT II — THE SACRED ROOT OATH',
+    textJP: '「人ならざる異形の魔法使い、エリアス・エインズワース。」',
+    textEN: '“The non-human, misshapen magus, Elias Ainsworth.”',
+    subText: 'ACT II — THE THORN MAGE',
     bgImage: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1400&q=80',
     intensity: 'brightness-[0.35] scale-110'
   },
   {
     id: 3,
-    textJP: '「奇跡は、静かに苔の下で息をしていた。」',
-    textEN: '“Miracles... were quietly breathing beneath the moss all along.”',
-    subText: 'ACT III — THE SACRED SPARKS',
+    textJP: '「彼女は彼の弟子となり、そしていつか、花嫁となる。」',
+    textEN: '“She will become his apprentice, and in time, his bride.”',
+    subText: 'ACT III — APPRENTICE & BRIDE',
     bgImage: 'https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1400&q=80',
     intensity: 'brightness-[0.4] scale-105'
   },
   {
     id: 4,
-    textJP: 'TVアニメ「森の追悼歌」2026年10月・放送開始',
-    textEN: 'Sylvan Echoes: The Vessel and the Ancient Antlered Mage.',
-    subText: 'PREMIUM BROADCAST SCHEDULING',
+    textJP: 'TVアニメ「魔法使いの嫁」好評配信中',
+    textEN: 'The Ancient Magus\' Bride.',
+    subText: 'MAHOYOME ANIME CODES',
     bgImage: 'https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1400&q=80',
     intensity: 'brightness-[0.32] scale-115'
   }
@@ -162,7 +162,7 @@ export default function TrailerSection() {
             <div className="absolute top-8 inset-x-8 flex justify-between items-center text-white/50 tracking-[0.2em] font-mono text-[9px] z-20">
               <span className="font-serif font-light text-xs text-[#FAF1EA]/80 flex items-center gap-2">
                 <Sparkles className="w-3.5 h-3.5 text-[#C89B5B] animate-pulse" />
-                森の追悼歌 OFFICIAL PV
+                魔法使いの嫁 OFFICIAL PV
               </span>
               <button 
                 onClick={handleClose} 
