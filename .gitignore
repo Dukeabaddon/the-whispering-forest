@@ -6,3 +6,11 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Agent Directories & MCP Tool Caches
+.agents/
+.antigravity/
+.graphify/
+gate-mcp/
+graphify-out/
+
