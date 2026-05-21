@@ -27,8 +27,14 @@ export default function NewsSection() {
 
       {/* Subtle vignettes surrounding the parchment sheet edges (excluding bottom to blend seamlessly) */}
       <div className="absolute inset-x-0 top-0 h-12 bg-gradient-to-b from-[rgba(40,25,18,0.18)] to-transparent pointer-events-none" />
-      <div className="absolute top-0 bottom-24 left-0 w-12 bg-gradient-to-r from-[rgba(40,25,18,0.12)] to-transparent pointer-events-none" />
-      <div className="absolute top-0 bottom-24 right-0 w-12 bg-gradient-to-l from-[rgba(40,25,18,0.12)] to-transparent pointer-events-none" />
+      <div
+        className="absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-[rgba(40,25,18,0.12)] to-transparent pointer-events-none"
+        style={{ maskImage: 'linear-gradient(to bottom, black 60%, transparent 100%)', WebkitMaskImage: 'linear-gradient(to bottom, black 60%, transparent 100%)' }}
+      />
+      <div
+        className="absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-[rgba(40,25,18,0.12)] to-transparent pointer-events-none"
+        style={{ maskImage: 'linear-gradient(to bottom, black 60%, transparent 100%)', WebkitMaskImage: 'linear-gradient(to bottom, black 60%, transparent 100%)' }}
+      />
 
       {/* Main Container */}
       <div className="w-full max-w-4xl px-8 sm:px-12 relative z-10 flex flex-col">
