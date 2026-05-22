@@ -2,7 +2,11 @@ import { useState, useEffect } from 'react';
 import { motion, useMotionValue, useSpring } from 'motion/react';
 import { Play } from 'lucide-react';
 
-export default function HeroSection() {
+interface HeroSectionProps {
+  isLoaded?: boolean;
+}
+
+export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
 
   // Smooth springs for magical parallax effect
@@ -82,15 +86,27 @@ export default function HeroSection() {
         <div className="relative w-full max-w-[800px] h-[85vh] flex items-end justify-center mb-[5vh] md:mb-0">
 
           {/* Backlight Aura glowing up behind the characters to create silhouette tension */}
-          <div className="absolute bottom-[20%] left-1/2 -translate-x-1/2 w-[350px] md:w-[500px] h-[350px] md:h-[500px] rounded-full bg-gradient-to-tr from-[#9C4B4B]/35 via-[#C89B5B]/25 to-transparent filter blur-3xl mix-blend-lighten animate-pulse" style={{ animationDuration: '8s' }} />
+          <motion.div
+            className="absolute bottom-[20%] left-1/2 -translate-x-1/2 w-[350px] md:w-[600px] h-[350px] md:h-[600px] pointer-events-none"
+            initial={{ opacity: 0, scale: 0.7 }}
+            animate={isLoaded ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.7 }}
+            transition={{ duration: 3.5, delay: 2.2, ease: "easeOut" }}
+          >
+            <div
+              className="w-full h-full rounded-full bg-gradient-to-tr from-[#9C4B4B]/65 via-[#C89B5B]/45 to-transparent filter blur-3xl mix-blend-lighten animate-pulse"
+              style={{ animationDuration: '8s' }}
+            />
+          </motion.div>
 
           {/* Sylvanas (The Ancient Mage) + Aoife (The Red-haired Girl) Composition Illustration */}
-          {/* To maximize realism we draw them as high-end painterly vector shapes with custom styles */}
           <div className="relative w-full h-full flex justify-center items-end overflow-visible">
-            <img
+            <motion.img
               src="/images/hero-section.png"
               alt="The Ancient Magus' Bride - Chise and Elias"
-              className="w-auto h-full max-h-[190vh] md:max-h-[190vh] object-contain drop-shadow-[0_25px_45px_rgba(0,0,0,0.95)] z-20 pointer-events-none scale-125 md:scale-145 origin-bottom translate-y-[11%]"
+              className="w-auto h-full max-h-[190vh] md:max-h-[190vh] object-contain drop-shadow-[0_25px_45px_rgba(0,0,0,0.95)] z-20 pointer-events-none scale-125 md:scale-145 origin-bottom"
+              initial={{ opacity: 0, y: "25%" }}
+              animate={isLoaded ? { opacity: 1, y: "15%" } : { opacity: 0, y: "25%" }}
+              transition={{ duration: 2.2, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
             />
           </div>
         </div>
@@ -103,11 +119,54 @@ export default function HeroSection() {
         className="absolute inset-0 w-[112%] h-[112%] -left-[6%] -top-[6%] pointer-events-none select-none z-20"
       />
 
+      {/* Left Side Decorative Thorns */}
+      <motion.div
+        className="absolute left-0 top-[10%] h-[80%] w-[100px] md:w-[180px] pointer-events-none select-none z-22 overflow-visible"
+        initial={{ x: "-50px", opacity: 0 }}
+        animate={isLoaded ? { x: 0, opacity: 0.55 } : { x: "-50px", opacity: 0 }}
+        transition={{ duration: 2.5, delay: 1.4, ease: "easeOut" }}
+      >
+        <svg className="w-full h-full text-[#140E0C]" viewBox="0 0 200 800" fill="currentColor" preserveAspectRatio="none">
+          <path d="M 0,0 Q 40,100 15,200 L 25,210 Q 5,230 45,280 L 35,290 Q 75,370 20,480 L 30,490 Q 0,510 55,570 L 45,580 Q 90,680 10,800 L 0,800 Z" />
+          <path d="M 15,100 L 45,105 L 18,120 Z" />
+          <path d="M 23,250 L 58,245 L 28,265 Z" />
+          <path d="M 53,330 L 88,320 L 58,345 Z" />
+          <path d="M 45,430 L 75,410 L 40,445 Z" />
+          <path d="M 32,530 L 67,525 L 35,550 Z" />
+          <path d="M 52,630 L 85,615 L 48,645 Z" />
+          <path d="M 35,710 L 62,695 L 30,725 Z" />
+        </svg>
+      </motion.div>
+
+      {/* Right Side Decorative Thorns */}
+      <motion.div
+        className="absolute right-0 top-[10%] h-[80%] w-[100px] md:w-[180px] pointer-events-none select-none z-22 overflow-visible"
+        initial={{ x: "50px", opacity: 0 }}
+        animate={isLoaded ? { x: 0, opacity: 0.55 } : { x: "-50px", opacity: 0 }}
+        transition={{ duration: 2.5, delay: 1.4, ease: "easeOut" }}
+      >
+        <svg className="w-full h-full text-[#140E0C] scale-x-[-1]" viewBox="0 0 200 800" fill="currentColor" preserveAspectRatio="none">
+          <path d="M 0,0 Q 35,120 18,220 L 28,230 Q 8,250 48,300 L 38,310 Q 70,390 15,500 L 25,510 Q 5,530 50,590 L 40,600 Q 80,700 5,800 L 0,800 Z" />
+          <path d="M 12,120 L 42,125 L 15,140 Z" />
+          <path d="M 20,270 L 55,265 L 25,285 Z" />
+          <path d="M 45,350 L 80,340 L 50,365 Z" />
+          <path d="M 38,450 L 68,430 L 33,465 Z" />
+          <path d="M 28,550 L 63,545 L 31,570 Z" />
+          <path d="M 42,650 L 75,635 L 38,665 Z" />
+          <path d="M 28,730 L 55,715 L 23,745 Z" />
+        </svg>
+      </motion.div>
+
       {/* 4. IMMERSIVE CONTENT OVERLAY: Elegant typography, text treatments, & scrolls */}
       <div id="hero-content-wrapper" className="absolute inset-0 flex flex-col justify-between items-center z-25 py-[3vh] px-6">
 
         {/* Cinematic top navbar */}
-        <div className="w-full max-w-6xl flex justify-between items-center text-xs tracking-[0.25em] font-mono text-[#F4F1EA]/75">
+        <motion.div
+          className="w-full max-w-6xl flex justify-between items-center text-xs tracking-[0.25em] font-mono text-[#F4F1EA]/75"
+          initial={{ opacity: 0, y: -10 }}
+          animate={isLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: -10 }}
+          transition={{ duration: 1.5, delay: 2.8, ease: "easeOut" }}
+        >
           <span className="font-serif font-semibold text-[#E8DDC7] tracking-[0.35em] text-sm flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-[#9C4B4B] animate-pulse" />
             魔法使いの嫁
@@ -122,15 +181,15 @@ export default function HeroSection() {
           <span className="hidden sm:inline border border-[#C89B5B]/30 px-3 py-1 text-[9px] text-[#C89B5B] hover:bg-[#C89B5B]/10 hover:border-[#C89B5B]/80 transition-all rounded-sm cursor-pointer" onClick={scrollToContent}>
             OFFICIAL SITE
           </span>
-        </div>
+        </motion.div>
 
         {/* Centered Main Title (Refined, book-jacket elegance, soft glows) */}
         <div className="flex flex-col items-center text-center mt-[15vh]">
           {/* Centered Large Japanese Title */}
           <motion.div
             initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.8, ease: [0.16, 1, 0.3, 1] }}
+            animate={isLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: 15 }}
+            transition={{ duration: 1.8, delay: 1.2, ease: [0.16, 1, 0.3, 1] }}
             className="relative"
           >
             {/* Soft text glow backdrop */}
@@ -147,8 +206,8 @@ export default function HeroSection() {
           {/* Subtitle Beneath */}
           <motion.div
             initial={{ opacity: 0 }}
-            animate={{ opacity: 0.85 }}
-            transition={{ delay: 0.6, duration: 1.5 }}
+            animate={isLoaded ? { opacity: 0.85 } : { opacity: 0 }}
+            transition={{ delay: 1.8, duration: 1.5 }}
             className="mt-6 flex flex-col items-center"
           >
             <div className="w-12 h-[1px] bg-[#C89B5B]/30 mb-4" />
@@ -162,7 +221,13 @@ export default function HeroSection() {
         </div>
 
         {/* Scroll Indicator & On-Air announcement */}
-        <div className="flex flex-col items-center gap-4 cursor-pointer" onClick={scrollToContent}>
+        <motion.div
+          className="flex flex-col items-center gap-4 cursor-pointer"
+          onClick={scrollToContent}
+          initial={{ opacity: 0, y: 10 }}
+          animate={isLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
+          transition={{ duration: 1.5, delay: 3.2, ease: "easeOut" }}
+        >
           <div className="flex flex-col items-center gap-1.5 font-mono text-[8px] sm:text-[9px] text-[#C89B5B] tracking-[0.35em] uppercase">
             <span>SCROLL DEEPER</span>
             {/* Animated pulsing needle */}
@@ -174,7 +239,7 @@ export default function HeroSection() {
               />
             </div>
           </div>
-        </div>
+        </motion.div>
 
       </div>
     </section>
