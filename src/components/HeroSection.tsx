@@ -68,8 +68,8 @@ export default function HeroSection() {
 
         {/* Deep, vein-like background twig vectors fading in */}
         <svg className="absolute inset-0 w-full h-full opacity-30 filter blur-[0.5px]" viewBox="0 0 1000 1000" fill="none">
-          <path d="M100,-50 Q250,150 400,320 T600,600 T750,900" stroke="#000" strokeWidth="6" />
-          <path d="M900,-20 Q750,220 540,430 T200,800" stroke="#000" strokeWidth="4" />
+          <path d="M-50,-50 Q120,250 60,600 T-20,1050" stroke="#000" strokeWidth="6" />
+          <path d="M1050,-50 Q880,250 940,600 T1020,1050" stroke="#000" strokeWidth="5" />
         </svg>
       </motion.div>
 

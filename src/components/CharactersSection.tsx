@@ -32,20 +32,24 @@ export default function CharactersSection() {
         </div>
 
         {/* Dynamic Gallery Row: Tall aspect cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full mb-16">
-          {CHARACTERS.map((char) => {
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full mb-24 md:mb-32">
+          {CHARACTERS.map((char, index) => {
             const isActive = char.id === selectedId;
+            const wrapperClass = 
+              index === 0 ? 'md:translate-y-6' : 
+              index === 1 ? 'md:-translate-y-4' : 
+              'md:translate-y-10';
             return (
-              <motion.div
-                key={char.id}
-                onClick={() => setSelectedId(char.id)}
-                whileHover={{ y: -6 }}
-                transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-                className={`relative aspect-[3/4.5] w-full rounded-md overflow-hidden cursor-pointer border transition-all duration-700 select-none group ${isActive
-                    ? 'border-[#C89B5B] shadow-[0_12px_24px_rgba(200,155,91,0.25)]'
-                    : 'border-white/10 hover:border-[#9C4B4B]/55'
-                  }`}
-              >
+              <div key={char.id} className={`${wrapperClass} transition-transform duration-500`}>
+                <motion.div
+                  onClick={() => setSelectedId(char.id)}
+                  whileHover={{ y: -8 }}
+                  transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+                  className={`relative aspect-[3/4.5] w-full rounded-md overflow-hidden cursor-pointer border transition-all duration-700 select-none group ${isActive
+                      ? 'border-[#C89B5B] shadow-[0_12px_24px_rgba(200,155,91,0.25)]'
+                      : 'border-white/10 hover:border-[#9C4B4B]/55'
+                    }`}
+                >
                 {/* Character image with painterly overlay filters */}
                 <div className="absolute inset-0 w-full h-full scale-[1.01] overflow-hidden bg-[#121212]">
                   <img
@@ -95,6 +99,7 @@ export default function CharactersSection() {
                   }`} />
 
               </motion.div>
+              </div>
             );
           })}
         </div>

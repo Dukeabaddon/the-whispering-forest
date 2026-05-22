@@ -16,9 +16,50 @@ export default function NewsSection() {
         <Lantern chainLength={90} swayDuration={8} intensity="soft" glowColor="rgba(190, 140, 80, 0.35)" />
       </div>
 
+      {/* 1. Torn Paper Physical Transition Divider (Top half of WebP, pointing up) */}
+      <div className="absolute top-0 left-0 w-full pointer-events-none z-30 select-none">
+        {/* Layer 1: Shadow Layer */}
+        <div 
+          className="absolute top-0 left-0 w-full h-12 -translate-y-[calc(100%-2px)] translate-y-[3px] bg-[#1C120D]/40"
+          style={{
+            maskImage: "url('/images/torn-paper.webp')",
+            maskSize: "100% 200%",
+            maskPosition: "top",
+            WebkitMaskImage: "url('/images/torn-paper.webp')",
+            WebkitMaskSize: "100% 200%",
+            WebkitMaskPosition: "top",
+          }}
+        />
+
+        {/* Layer 2: Main Paper Base */}
+        <div 
+          className="absolute top-0 left-0 w-full h-12 -translate-y-[calc(100%-1px)] bg-[#E8DDC7]"
+          style={{
+            maskImage: "url('/images/torn-paper.webp')",
+            maskSize: "100% 200%",
+            maskPosition: "top",
+            WebkitMaskImage: "url('/images/torn-paper.webp')",
+            WebkitMaskSize: "100% 200%",
+            WebkitMaskPosition: "top",
+          }}
+        >
+          {/* Inner Paper Grain/Texture to match scroll */}
+          <div className="parchment-grain" />
+          <div className="parchment-stains" />
+        </div>
+
+        {/* Layer 3: Atmospheric Fog / Light depth separation */}
+        <div className="absolute top-0 left-0 w-full h-16 -translate-y-[calc(100%-1px)] bg-gradient-to-b from-transparent via-[#2F4633]/5 to-[#E8DDC7]/10" />
+      </div>
+
+      {/* 2. Parchment Materiality Overlay System */}
+      <div className="parchment-grain" />
+      <div className="parchment-stains" />
+      <div className="parchment-vignette" />
+
       {/* Decorative parchment grunge texture overlay */}
       <div
-        className="absolute inset-0 pointer-events-none opacity-[0.08] mix-blend-color-burn"
+        className="absolute inset-0 pointer-events-none opacity-[0.05] mix-blend-color-burn"
         style={{
           backgroundImage: `url('https://images.unsplash.com/photo-1587080266227-677cd237c267?auto=format&fit=crop&w=1200&q=80')`,
           backgroundSize: 'cover'
@@ -26,7 +67,6 @@ export default function NewsSection() {
       />
 
       {/* Subtle vignettes surrounding the parchment sheet edges (excluding bottom to blend seamlessly) */}
-      <div className="absolute inset-x-0 top-0 h-12 bg-gradient-to-b from-[rgba(40,25,18,0.18)] to-transparent pointer-events-none" />
       <div
         className="absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-[rgba(40,25,18,0.12)] to-transparent pointer-events-none"
         style={{ maskImage: 'linear-gradient(to bottom, black 60%, transparent 100%)', WebkitMaskImage: 'linear-gradient(to bottom, black 60%, transparent 100%)' }}

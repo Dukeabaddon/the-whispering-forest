@@ -87,6 +87,41 @@ export default function TrailerSection() {
       <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0D] via-transparent to-[#0D0D0D]" />
       <div className="absolute inset-0 bg-[#0D0D0D]/40" />
 
+      {/* Drifting Fog Layers */}
+      <div className="absolute inset-0 opacity-[0.15] pointer-events-none select-none mix-blend-screen overflow-hidden">
+        <div className="absolute -inset-10 bg-gradient-radial from-[#2F4633]/30 via-transparent to-transparent blur-3xl animate-drift-fog-1" />
+        <div className="absolute -inset-10 bg-gradient-radial from-[#C89B5B]/10 via-transparent to-transparent blur-3xl animate-drift-fog-2" style={{ animationDelay: '-10s' }} />
+      </div>
+
+      {/* Soft Cinematic Light Rays */}
+      <div className="cinematic-ray" />
+
+      {/* Faint Floating Fireflies (Golden dust particles) */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden select-none z-10">
+        {Array.from({ length: 8 }).map((_, i) => {
+          const left = `${[12, 35, 58, 82, 24, 46, 73, 91][i]}%`;
+          const top = `${[65, 75, 55, 80, 48, 72, 60, 85][i]}%`;
+          const size = `${[3, 5, 4, 3, 4, 6, 3, 5][i]}px`;
+          const delay = `${[0, 2.5, 1.2, 3.8, 0.8, 4.2, 1.9, 3.1][i]}s`;
+          const duration = `${[12, 16, 14, 18, 15, 13, 17, 14][i]}s`;
+          return (
+            <div
+              key={i}
+              className="absolute rounded-full bg-[#C89B5B] blur-[0.5px]"
+              style={{
+                left,
+                top,
+                width: size,
+                height: size,
+                boxShadow: '0 0 8px #C89B5B, 0 0 12px #C89B5B',
+                animation: `firefly-float ${duration} ease-in-out infinite`,
+                animationDelay: delay,
+              }}
+            />
+          );
+        })}
+      </div>
+
       {/* Spawns dynamic glowing particles above background to give mist depth */}
       <div className="absolute inset-0 bg-gradient-radial from-[#C89B5B]/10 to-transparent blur-2xl top-1/2 -translate-y-1/2 pointer-events-none" />
 
