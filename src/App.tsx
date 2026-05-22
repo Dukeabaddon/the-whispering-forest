@@ -213,7 +213,7 @@ export default function App() {
       </div>
 
       {/* 3. Theatrical Sequential Story Landing Sections */}
-      <HeroSection />
+      <HeroSection isLoaded={!isLoading} />
       
       <NewsSection />
       
