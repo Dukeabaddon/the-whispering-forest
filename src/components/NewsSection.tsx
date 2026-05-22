@@ -128,13 +128,16 @@ export default function NewsSection() {
         {/* News Feed Stream */}
         <div className="flex flex-col gap-8 md:gap-11 w-full">
           {NEWS_ITEMS.map((item, index) => (
-            <motion.div
+            <motion.a
+              href={item.link || '#'}
+              target="_blank"
+              rel="noopener noreferrer"
               key={item.id}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-10% 0px' }}
               transition={{ delay: index * 0.1, duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-              className="group flex flex-col md:flex-row md:items-baseline border-b border-[#3A2A22]/15 pb-8 relative hover:border-[#9C4B4B]/30 transition-colors cursor-pointer"
+              className="group flex flex-col md:flex-row md:items-baseline border-b border-[#3A2A22]/15 pb-8 relative hover:border-[#9C4B4B]/30 transition-colors cursor-pointer block"
             >
               {/* Category tag & Date */}
               <div className="md:w-1/4 flex items-center md:flex-col md:items-start gap-4 mb-3 md:mb-0">
@@ -166,16 +169,21 @@ export default function NewsSection() {
               <div className="absolute right-0 bottom-8 translate-x-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all text-[#9C4B4B]">
                 <span className="font-serif text-sm">→</span>
               </div>
-            </motion.div>
+            </motion.a>
           ))}
         </div>
 
         {/* Archives Button */}
         <div className="mt-16 flex justify-center">
-          <div className="group border border-[#3A2A22]/30 hover:border-[#9C4B4B]/70 hover:bg-[#3A2A22]/5 px-8 py-3.5 rounded-sm text-xs font-mono tracking-[0.25em] text-[#3A2A22] cursor-pointer transition-all uppercase flex items-center gap-2">
+          <a
+            href="https://mahoyome.jp/news/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group border border-[#3A2A22]/30 hover:border-[#9C4B4B]/70 hover:bg-[#3A2A22]/5 px-8 py-3.5 rounded-sm text-xs font-mono tracking-[0.25em] text-[#3A2A22] cursor-pointer transition-all uppercase flex items-center gap-2"
+          >
             View All Announcements
             <span className="font-serif text-xs group-hover:translate-x-1.5 transition-transform">→</span>
-          </div>
+          </a>
         </div>
 
       </div>

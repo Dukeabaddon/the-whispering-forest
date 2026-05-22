@@ -7,7 +7,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     category: 'ON AIR',
     titleEN: 'TV Anime Season 2 Part 2 Broadcast Begins',
     titleJP: 'TVアニメ『魔法使いの嫁 SEASON2』第2クール放送開始',
-    content: 'The second half of the College Arc premieres. Chise Hatori faces new mysteries and dark forces inside the College, unraveling the curse of the forbidden grimoire alongside Elias and her classmates.'
+    content: 'The second half of the College Arc premieres. Chise Hatori faces new mysteries and dark forces inside the College, unraveling the curse of the forbidden grimoire alongside Elias and her classmates.',
+    link: 'https://www.crunchyroll.com/news/announcements/2023/10/4/the-ancient-magus-bride-season-2-part-2-crunchyroll-release-time'
   },
   {
     id: 'news-2',
@@ -15,7 +16,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     category: 'ON AIR',
     titleEN: 'TV Anime Season 2 Part 1 Premiere',
     titleJP: 'TVアニメ『魔法使いの嫁 SEASON2』第1クール放送開始',
-    content: 'Chise enters the College, a mutual aid society for mages, under Elias\'s protection. Studio Kafka takes over production, delivering gorgeous art and direction for the highly anticipated College Arc.'
+    content: 'Chise enters the College, a mutual aid society for mages, under Elias\'s protection. Studio Kafka takes over production, delivering gorgeous art and direction for the highly anticipated College Arc.',
+    link: 'https://www.crunchyroll.com/news/latest/2023/3/22/the-ancient-magus-bride-season-2-crunchyroll-spring-2023-deets'
   },
   {
     id: 'news-3',
@@ -23,7 +25,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     category: 'OAD',
     titleEN: 'OAD Trilogy "The Boy from the West" Completed',
     titleJP: 'OAD『西の少年と青嵐の騎士』全3部作 完結',
-    content: 'The final episode of the original animation DVD trilogy is released, bundled with manga volume 18. This special side-story follows a mortal boy named Gabriel and his encounter with the Wild Hunt.'
+    content: 'The final episode of the original animation DVD trilogy is released, bundled with manga volume 18. This special side-story follows a mortal boy named Gabriel and his encounter with the Wild Hunt.',
+    link: 'https://www.crunchyroll.com/news/latest/2021/3/9/the-ancient-magus-bride-gets-new-3-part-anime-oad-series-by-newly-established-studio-kafka'
   },
   {
     id: 'news-4',
@@ -31,7 +34,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     category: 'SEASON 1',
     titleEN: 'TV Anime Season 1 Premiere & Broadcast',
     titleJP: 'TVアニメ『魔法使いの嫁』第1期 放送開始',
-    content: 'The grand television adaptation of Kore Yamazaki\'s acclaimed manga series begins broadcasting, animated by Wit Studio. Follow Chise\'s first steps into the beautiful English countryside.'
+    content: 'The grand television adaptation of Kore Yamazaki\'s acclaimed manga series begins broadcasting, animated by Wit Studio. Follow Chise\'s first steps into the beautiful English countryside.',
+    link: 'https://www.crunchyroll.com/series/GR5V7V78Y/the-ancient-magus-bride'
   }
 ];
 
@@ -46,7 +50,7 @@ export const CHARACTERS: Character[] = [
     quoteJP: '「私には、帰る場所なんて、どこにもなかった……でも今は……」',
     quoteEN: '“I never had a place to return to... but now, as a mage’s apprentice, I might have found a home.”',
     voiceActorJP: 'Atsumi Tanezaki (種﨑敦美)',
-    voiceActorEN: 'Sarah Wiedenheft',
+    voiceActorEN: 'Dani Chambers',
     image: 'https://nxsnjqfqtwiaoedulnpr.supabase.co/storage/v1/object/public/tag-images/characters/8c46f315-4fbb-467f-8480-5e812d660734/1773864740027.png',
     accentColor: '#9C4B4B', // Muted Crimson
     traits: ['Sleigh Beggy', 'Red Hair', 'Mage Apprentice', 'Ancient Pact']

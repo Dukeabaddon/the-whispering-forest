@@ -5,6 +5,7 @@ export interface NewsItem {
   titleEN: string;
   titleJP: string;
   content: string;
+  link?: string;
 }
 
 export interface Character {

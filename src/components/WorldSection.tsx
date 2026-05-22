@@ -226,9 +226,14 @@ export default function WorldSection() {
             </p>
           </div>
           <div className="md:ml-auto">
-            <span className="font-mono text-[9px] tracking-widest text-[#9C4B4B] border border-[#9C4B4B]/35 px-4 py-2 hover:bg-[#9C4B4B]/10 hover:border-[#9C4B4B] transition-colors rounded-sm cursor-pointer whitespace-nowrap uppercase">
+            <a
+              href="https://mahoyome.jp/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-[9px] tracking-widest text-[#9C4B4B] border border-[#9C4B4B]/35 px-4 py-2 hover:bg-[#9C4B4B]/10 hover:border-[#9C4B4B] transition-colors rounded-sm cursor-pointer whitespace-nowrap uppercase inline-block"
+            >
               EXPLORE GUIDEBOOK
-            </span>
+            </a>
           </div>
         </div>
 
