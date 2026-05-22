@@ -219,7 +219,7 @@ export default function StorySection() {
 
             {/* Elegant Japanese text label */}
             <p className="mt-2 text-[10px] sm:text-[11px] font-serif text-[#1C120D] opacity-90 border-t border-[#3A2A22]/10 pt-2.5">
-              「第1話 April showers bring May flowers.」より
+              「第24話 Live and let live.」より
             </p>
           </div>
         </motion.div>
