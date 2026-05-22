@@ -123,9 +123,9 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
       <motion.img
         src="/images/thorns.png"
         alt="Decorative Thorns Left"
-        className="absolute left-0 top-[10%] h-[80%] w-auto max-w-[120px] md:max-w-[200px] object-contain pointer-events-none select-none z-22"
-        initial={{ x: "-50px", opacity: 0 }}
-        animate={isLoaded ? { x: 0, opacity: 0.6 } : { x: "-50px", opacity: 0 }}
+        className="absolute left-[-40px] bottom-0 h-[80vh] w-auto max-w-[220px] md:max-w-[320px] object-contain pointer-events-none select-none z-22"
+        initial={{ x: "-120px", opacity: 0 }}
+        animate={isLoaded ? { x: 0, opacity: 0.75 } : { x: "-120px", opacity: 0 }}
         transition={{ duration: 2.5, delay: 1.4, ease: "easeOut" }}
       />
 
@@ -133,10 +133,10 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
       <motion.img
         src="/images/thorns.png"
         alt="Decorative Thorns Right"
-        className="absolute right-0 top-[10%] h-[80%] w-auto max-w-[120px] md:max-w-[200px] object-contain pointer-events-none select-none z-22"
+        className="absolute right-[-40px] bottom-0 h-[80vh] w-auto max-w-[220px] md:max-w-[320px] object-contain pointer-events-none select-none z-22"
         style={{ scaleX: -1 }}
-        initial={{ x: "50px", opacity: 0 }}
-        animate={isLoaded ? { x: 0, opacity: 0.6 } : { x: "-50px", opacity: 0 }}
+        initial={{ x: "120px", opacity: 0 }}
+        animate={isLoaded ? { x: 0, opacity: 0.75 } : { x: "120px", opacity: 0 }}
         transition={{ duration: 2.5, delay: 1.4, ease: "easeOut" }}
       />
 
