@@ -17,7 +17,7 @@ const CINEMATIC_SLIDES: TrailerSlide[] = [
     textJP: '「五百万ポンドで買われた、身寄りのない少女。」',
     textEN: '“A friendless girl, purchased for five million pounds.”',
     subText: 'ACT I — THE AUCTION',
-    bgImage: 'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80',
+    bgImage: '/images/act-1.webp',
     intensity: 'brightness-[0.4] scale-105'
   },
   {
@@ -25,7 +25,7 @@ const CINEMATIC_SLIDES: TrailerSlide[] = [
     textJP: '「人ならざる異形の魔法使い、エリアス・エインズワース。」',
     textEN: '“The non-human, misshapen magus, Elias Ainsworth.”',
     subText: 'ACT II — THE THORN MAGE',
-    bgImage: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1400&q=80',
+    bgImage: '/images/act-2.png',
     intensity: 'brightness-[0.35] scale-110'
   },
   {
@@ -33,7 +33,7 @@ const CINEMATIC_SLIDES: TrailerSlide[] = [
     textJP: '「彼女は彼の弟子となり、そしていつか、花嫁となる。」',
     textEN: '“She will become his apprentice, and in time, his bride.”',
     subText: 'ACT III — APPRENTICE & BRIDE',
-    bgImage: 'https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1400&q=80',
+    bgImage: '/images/act-3.png',
     intensity: 'brightness-[0.4] scale-105'
   },
   {
@@ -41,7 +41,7 @@ const CINEMATIC_SLIDES: TrailerSlide[] = [
     textJP: 'TVアニメ「魔法使いの嫁」好評配信中',
     textEN: 'The Ancient Magus\' Bride.',
     subText: 'MAHOYOME ANIME CODES',
-    bgImage: 'https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1400&q=80',
+    bgImage: '/images/act-4.png',
     intensity: 'brightness-[0.32] scale-115'
   }
 ];
@@ -79,9 +79,9 @@ export default function TrailerSection() {
     >
       {/* Background layer with dense moss woods visual and particles */}
       <div 
-        className="absolute inset-0 bg-cover bg-center opacity-30 pointer-events-none select-none filter contrast-125 saturate-50"
+        className="absolute inset-0 bg-cover bg-center opacity-35 pointer-events-none select-none filter contrast-125 saturate-50"
         style={{ 
-          backgroundImage: `url('https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1600&q=80')` 
+          backgroundImage: `url('/images/footer-bg.jpg')` 
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0D] via-transparent to-[#0D0D0D]" />
