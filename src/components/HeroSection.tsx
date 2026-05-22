@@ -120,42 +120,25 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
       />
 
       {/* Left Side Decorative Thorns */}
-      <motion.div
-        className="absolute left-0 top-[10%] h-[80%] w-[100px] md:w-[180px] pointer-events-none select-none z-22 overflow-visible"
+      <motion.img
+        src="/images/thorns.png"
+        alt="Decorative Thorns Left"
+        className="absolute left-0 top-[10%] h-[80%] w-auto max-w-[120px] md:max-w-[200px] object-contain pointer-events-none select-none z-22"
         initial={{ x: "-50px", opacity: 0 }}
-        animate={isLoaded ? { x: 0, opacity: 0.55 } : { x: "-50px", opacity: 0 }}
+        animate={isLoaded ? { x: 0, opacity: 0.6 } : { x: "-50px", opacity: 0 }}
         transition={{ duration: 2.5, delay: 1.4, ease: "easeOut" }}
-      >
-        <svg className="w-full h-full text-[#140E0C]" viewBox="0 0 200 800" fill="currentColor" preserveAspectRatio="none">
-          <path d="M 0,0 Q 40,100 15,200 L 25,210 Q 5,230 45,280 L 35,290 Q 75,370 20,480 L 30,490 Q 0,510 55,570 L 45,580 Q 90,680 10,800 L 0,800 Z" />
-          <path d="M 15,100 L 45,105 L 18,120 Z" />
-          <path d="M 23,250 L 58,245 L 28,265 Z" />
-          <path d="M 53,330 L 88,320 L 58,345 Z" />
-          <path d="M 45,430 L 75,410 L 40,445 Z" />
-          <path d="M 32,530 L 67,525 L 35,550 Z" />
-          <path d="M 52,630 L 85,615 L 48,645 Z" />
-          <path d="M 35,710 L 62,695 L 30,725 Z" />
-        </svg>
-      </motion.div>
+      />
 
       {/* Right Side Decorative Thorns */}
-      <motion.div
-        className="absolute right-0 top-[10%] h-[80%] w-[100px] md:w-[180px] pointer-events-none select-none z-22 overflow-visible"
+      <motion.img
+        src="/images/thorns.png"
+        alt="Decorative Thorns Right"
+        className="absolute right-0 top-[10%] h-[80%] w-auto max-w-[120px] md:max-w-[200px] object-contain pointer-events-none select-none z-22"
+        style={{ scaleX: -1 }}
         initial={{ x: "50px", opacity: 0 }}
-        animate={isLoaded ? { x: 0, opacity: 0.55 } : { x: "-50px", opacity: 0 }}
+        animate={isLoaded ? { x: 0, opacity: 0.6 } : { x: "-50px", opacity: 0 }}
         transition={{ duration: 2.5, delay: 1.4, ease: "easeOut" }}
-      >
-        <svg className="w-full h-full text-[#140E0C] scale-x-[-1]" viewBox="0 0 200 800" fill="currentColor" preserveAspectRatio="none">
-          <path d="M 0,0 Q 35,120 18,220 L 28,230 Q 8,250 48,300 L 38,310 Q 70,390 15,500 L 25,510 Q 5,530 50,590 L 40,600 Q 80,700 5,800 L 0,800 Z" />
-          <path d="M 12,120 L 42,125 L 15,140 Z" />
-          <path d="M 20,270 L 55,265 L 25,285 Z" />
-          <path d="M 45,350 L 80,340 L 50,365 Z" />
-          <path d="M 38,450 L 68,430 L 33,465 Z" />
-          <path d="M 28,550 L 63,545 L 31,570 Z" />
-          <path d="M 42,650 L 75,635 L 38,665 Z" />
-          <path d="M 28,730 L 55,715 L 23,745 Z" />
-        </svg>
-      </motion.div>
+      />
 
       {/* 4. IMMERSIVE CONTENT OVERLAY: Elegant typography, text treatments, & scrolls */}
       <div id="hero-content-wrapper" className="absolute inset-0 flex flex-col justify-between items-center z-25 py-[3vh] px-6">
