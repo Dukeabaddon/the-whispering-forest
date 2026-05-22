@@ -111,5 +111,21 @@ export const LORE_ITEMS: LoreItem[] = [
     summary: 'The profound apprentice-bride pact sealed between the towering canine-skulled shadow-weaver Elias Ainsworth and Chise Hatori.',
     description: 'Having sold herself at a secret London auction to escape a life of despair, Chise binds her fate to Elias in exchange for a warm hearth, magical training to manage her Sleigh Beggy condition, and a family home. Through this covenant, Elias learns human sentiment and delicate emotions, while Chise learns to value her own lifespan and find her place in the world.',
     quote: '“I intend to make you my apprentice, and in time, perhaps my bride.”'
+  },
+  {
+    id: 'mages-vs-sorcerers',
+    titleEN: 'Mages vs. Sorcerers',
+    titleJP: '魔法使いと魔術師 （まほうつかいとまじゅつし）',
+    summary: 'The split in magical practice: borrowing miracles from the Neighbours versus treating magic as a science powered by one\'s own vitality.',
+    description: 'While both wield magic, their paths are fundamentally distinct. Mages (Mahoutsukai) communicate with the "Neighbours" (spirits/fairies) to alter reality, acting as vessels or directors of nature\'s raw forces. In contrast, Sorcerers (Majutsushi) operate under strict scientific and mathematical systems, using their own physical energy to force reality into formulas. While Mages are intuitive and increasingly rare, Sorcerers study academically, using tools and circles to safeguard against the chaotic influence of fae entities.',
+    quote: '“A mage commands the world by pleading with the neighbors; a sorcerer commands by rewriting its laws at the cost of their own flesh.”'
+  },
+  {
+    id: 'the-college',
+    titleEN: 'The College',
+    titleJP: '魔術師たちの学院 （コッレギウム）',
+    summary: 'The hidden underground university underneath London, serving as an asylum and archive for Sorcerers and forbidden relics.',
+    description: 'Nestled deep beneath London\'s mundane streets, the College (Collegium) is a subterranean mutual-aid society and school for sorcerers. Governed by strict laws to prevent magical anomalies from leaking to mortals, it functions as both an academy of research and an asylum for shielding vulnerable casters from fae manipulation. Within its vaulted archives lie forbidden texts, alchemical laboratories, and dark family secrets that shape the politics of the sorcery world.',
+    quote: '“Welcome to the College, Chise. Here, magic is not a contract of love—it is a lesson in survival.”'
   }
 ];
