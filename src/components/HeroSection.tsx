@@ -86,11 +86,11 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
         style={{ x: midX, y: midY }}
         className="absolute inset-0 w-[108%] h-[108%] -left-[4%] -top-[4%] flex items-end justify-center pointer-events-none select-none z-15"
       >
-        <div className="relative w-full max-w-[800px] h-[85vh] flex items-end justify-center mb-[5vh] md:mb-0">
+        <div className="relative w-full max-w-[800px] h-[85vh] flex items-end justify-center mb-[2vh] md:mb-0">
 
           {/* Backlight Aura glowing up behind the characters to create silhouette tension */}
           <motion.div
-            className="absolute bottom-[20%] left-1/2 -translate-x-1/2 w-[350px] md:w-[600px] h-[350px] md:h-[600px] pointer-events-none"
+            className="absolute bottom-[18%] left-1/2 -translate-x-1/2 w-[320px] sm:w-[480px] md:w-[600px] h-[320px] sm:h-[480px] md:h-[600px] pointer-events-none"
             initial={{ opacity: 0, scale: 0.7 }}
             animate={isLoaded ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.7 }}
             transition={{ duration: 3.5, delay: 2.5, ease: "easeOut" }}
@@ -102,13 +102,13 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
           </motion.div>
 
           {/* Sylvanas (The Ancient Mage) + Aoife (The Red-haired Girl) Composition Illustration */}
-          <div className="relative w-full h-full flex justify-center items-end overflow-visible">
+          <div className="relative w-full h-full flex justify-center items-end overflow-visible translate-x-6 sm:translate-x-0">
             <motion.img
               src="/images/hero-section.png"
               alt="The Ancient Magus' Bride - Chise and Elias"
-              className="w-auto h-full max-h-[190vh] md:max-h-[190vh] object-contain drop-shadow-[0_25px_45px_rgba(0,0,0,0.95)] z-20 pointer-events-none scale-125 md:scale-145 origin-bottom"
+              className="w-auto h-full max-h-[190vh] md:max-h-[190vh] object-contain drop-shadow-[0_25px_45px_rgba(0,0,0,0.95)] z-20 pointer-events-none scale-[1.55] sm:scale-130 md:scale-145 origin-bottom"
               initial={{ opacity: 0, y: "25%" }}
-              animate={isLoaded ? { opacity: 1, y: "15%" } : { opacity: 0, y: "25%" }}
+              animate={isLoaded ? { opacity: 1, y: "18%" } : { opacity: 0, y: "25%" }}
               transition={{ duration: 2.2, delay: 1.3, ease: [0.16, 1, 0.3, 1] }}
             />
           </div>
@@ -170,7 +170,7 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
         </motion.div>
 
         {/* Centered Main Title (Refined, book-jacket elegance, soft glows) */}
-        <div className="flex flex-col items-center text-center mt-[15vh]">
+        <div className="flex flex-col items-center text-center mt-[8vh] sm:mt-[15vh]">
           {/* Centered Large Japanese Title */}
           <motion.div
             initial={{ opacity: 0, y: 15 }}

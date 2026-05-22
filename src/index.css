@@ -155,3 +155,16 @@ body {
   animation: drift 35s ease-in-out infinite reverse;
 }
 
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 45s linear infinite;
+}
+

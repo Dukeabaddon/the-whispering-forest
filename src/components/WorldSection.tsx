@@ -85,13 +85,11 @@ export default function WorldSection() {
 
       {/* ROTATING VECTOR MAGIC RUNE CIRCLE: Slow spinning background detail */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] opacity-[0.08] pointer-events-none select-none z-0">
-        <motion.svg
-          animate={{ rotate: 360 }}
-          transition={{ duration: 45, repeat: Infinity, ease: "linear" }}
+        <svg
           viewBox="0 0 540 540"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-full h-full text-[#1C120D]"
+          className="w-full h-full text-[#1C120D] animate-spin-slow"
         >
           <circle cx="270" cy="270" r="260" stroke="currentColor" strokeWidth="1.5" strokeDasharray="10 5" />
           <circle cx="270" cy="270" r="230" stroke="currentColor" strokeWidth="0.75" />
@@ -110,7 +108,7 @@ export default function WorldSection() {
               <circle key={i} cx={rx} cy={ry} r="8" stroke="currentColor" strokeWidth="1.5" fill="none" />
             );
           })}
-        </motion.svg>
+        </svg>
       </div>
 
       {/* Main Container */}
