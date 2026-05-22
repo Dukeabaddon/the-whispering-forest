@@ -70,11 +70,7 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
         <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0D] via-[#1A110D]/90 to-[#9C4B4B]/20" />
         <div className="absolute bottom-1/4 left-1/2 -translate-x-1/2 w-[80vw] h-[80vw] rounded-full bg-gradient-radial from-[#C89B5B]/15 to-transparent blur-3xl" />
 
-        {/* Deep, vein-like background twig vectors fading in */}
-        <svg className="absolute inset-0 w-full h-full opacity-30 filter blur-[0.5px]" viewBox="0 0 1000 1000" fill="none">
-          <path d="M-50,-50 Q120,250 60,600 T-20,1050" stroke="#000" strokeWidth="6" />
-          <path d="M1050,-50 Q880,250 940,600 T1020,1050" stroke="#000" strokeWidth="5" />
-        </svg>
+
       </motion.div>
 
       {/* 2. MIDGROUND LAYER: The Central Anime Key Visual (Aoife & Sylvanas) */}
@@ -123,7 +119,7 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
       <motion.img
         src="/images/thorns.png"
         alt="Decorative Thorns Left"
-        className="absolute left-[-40px] bottom-0 h-[80vh] w-auto max-w-[220px] md:max-w-[320px] object-contain pointer-events-none select-none z-22"
+        className="absolute left-[-40px] bottom-[-10px] h-[80vh] w-auto max-w-[220px] md:max-w-[320px] object-contain pointer-events-none select-none z-22"
         initial={{ x: "-120px", opacity: 0 }}
         animate={isLoaded ? { x: 0, opacity: 0.75 } : { x: "-120px", opacity: 0 }}
         transition={{ duration: 2.5, delay: 1.4, ease: "easeOut" }}
@@ -133,7 +129,7 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
       <motion.img
         src="/images/thorns.png"
         alt="Decorative Thorns Right"
-        className="absolute right-[-40px] bottom-0 h-[80vh] w-auto max-w-[220px] md:max-w-[320px] object-contain pointer-events-none select-none z-22"
+        className="absolute right-[-40px] bottom-[-10px] h-[80vh] w-auto max-w-[220px] md:max-w-[320px] object-contain pointer-events-none select-none z-22"
         style={{ scaleX: -1 }}
         initial={{ x: "120px", opacity: 0 }}
         animate={isLoaded ? { x: 0, opacity: 0.75 } : { x: "120px", opacity: 0 }}
