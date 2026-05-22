@@ -15,6 +15,7 @@ import Footer from './components/Footer';
 import { Volume2, VolumeX, Sparkles } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import CinematicLoader from './components/CinematicLoader';
+import Lenis from 'lenis';
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -23,13 +24,78 @@ export default function App() {
   const audioCtxRef = useRef<AudioContext | null>(null);
   const synthNodesRef = useRef<OscillatorNode[]>([]);
   const gainNodeRef = useRef<GainNode | null>(null);
+  const lenisRef = useRef<Lenis | null>(null);
+
+  // Preload hero images on mount so they are cached before loading finishes
+  useEffect(() => {
+    const imagesToPreload = [
+      'https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1600&q=80',
+      '/images/hero-section.png',
+      '/images/thorns.png'
+    ];
+
+    imagesToPreload.forEach(src => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, []);
+
+  // Initialize Lenis smooth scroll
+  useEffect(() => {
+    const lenis = new Lenis({
+      duration: 1.2,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      orientation: 'vertical',
+      gestureOrientation: 'vertical',
+      smoothWheel: true,
+    });
+    lenisRef.current = lenis;
+    (window as any).lenis = lenis;
+
+    function raf(time: number) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+
+    // Intercept clicks on links with target '#'
+    const handleAnchorClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      const anchor = target.closest('a');
+      if (anchor) {
+        const href = anchor.getAttribute('href');
+        if (href && href.startsWith('#')) {
+          e.preventDefault();
+          const targetEl = document.querySelector(href);
+          if (targetEl) {
+            lenis.scrollTo(targetEl, {
+              offset: 0,
+              duration: 1.5,
+              easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+            });
+          }
+        }
+      }
+    };
+
+    document.addEventListener('click', handleAnchorClick);
+
+    return () => {
+      lenis.destroy();
+      lenisRef.current = null;
+      (window as any).lenis = null;
+      document.removeEventListener('click', handleAnchorClick);
+    };
+  }, []);
 
   // Prevent body scroll while loading is active
   useEffect(() => {
     if (isLoading) {
       document.body.style.overflow = 'hidden';
+      lenisRef.current?.stop();
     } else {
       document.body.style.overflow = 'unset';
+      lenisRef.current?.start();
     }
     return () => {
       document.body.style.overflow = 'unset';

@@ -42,9 +42,13 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
 
   // Smooth scroll to news helper
   const scrollToContent = () => {
-    const newsSection = document.getElementById('news-section');
-    if (newsSection) {
-      newsSection.scrollIntoView({ behavior: 'smooth' });
+    if ((window as any).lenis) {
+      (window as any).lenis.scrollTo('#news-section', { duration: 1.5 });
+    } else {
+      const newsSection = document.getElementById('news-section');
+      if (newsSection) {
+        newsSection.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   };
 
@@ -57,6 +61,9 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
       <motion.div
         id="bg-layer"
         style={{ x: bgX, y: bgY }}
+        initial={{ opacity: 0, scale: 1.05 }}
+        animate={isLoaded ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 1.05 }}
+        transition={{ duration: 2.2, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
         className="absolute inset-0 w-[110%] h-[110%] -left-[5%] -top-[5%] pointer-events-none select-none"
       >
         {/* Underlay watercolor texture/sunbeams */}
@@ -86,10 +93,10 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
             className="absolute bottom-[20%] left-1/2 -translate-x-1/2 w-[350px] md:w-[600px] h-[350px] md:h-[600px] pointer-events-none"
             initial={{ opacity: 0, scale: 0.7 }}
             animate={isLoaded ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.7 }}
-            transition={{ duration: 3.5, delay: 2.2, ease: "easeOut" }}
+            transition={{ duration: 3.5, delay: 2.5, ease: "easeOut" }}
           >
             <div
-              className="w-full h-full rounded-full bg-gradient-to-tr from-[#9C4B4B]/65 via-[#C89B5B]/45 to-transparent filter blur-3xl mix-blend-lighten animate-pulse"
+              className="w-full h-full rounded-full bg-gradient-to-tr from-[#9C4B4B]/85 via-[#C89B5B]/70 to-[#C89B5B]/15 filter blur-3xl mix-blend-lighten animate-pulse"
               style={{ animationDuration: '8s' }}
             />
           </motion.div>
@@ -102,7 +109,7 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
               className="w-auto h-full max-h-[190vh] md:max-h-[190vh] object-contain drop-shadow-[0_25px_45px_rgba(0,0,0,0.95)] z-20 pointer-events-none scale-125 md:scale-145 origin-bottom"
               initial={{ opacity: 0, y: "25%" }}
               animate={isLoaded ? { opacity: 1, y: "15%" } : { opacity: 0, y: "25%" }}
-              transition={{ duration: 2.2, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              transition={{ duration: 2.2, delay: 1.3, ease: [0.16, 1, 0.3, 1] }}
             />
           </div>
         </div>
@@ -122,7 +129,7 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
         className="absolute left-[-40px] bottom-[-10px] h-[80vh] w-auto max-w-[220px] md:max-w-[320px] object-contain pointer-events-none select-none z-22"
         initial={{ x: "-120px", opacity: 0 }}
         animate={isLoaded ? { x: 0, opacity: 0.75 } : { x: "-120px", opacity: 0 }}
-        transition={{ duration: 2.5, delay: 1.4, ease: "easeOut" }}
+        transition={{ duration: 2.5, delay: 2.0, ease: "easeOut" }}
       />
 
       {/* Right Side Decorative Thorns */}
@@ -133,7 +140,7 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
         style={{ scaleX: -1 }}
         initial={{ x: "120px", opacity: 0 }}
         animate={isLoaded ? { x: 0, opacity: 0.75 } : { x: "120px", opacity: 0 }}
-        transition={{ duration: 2.5, delay: 1.4, ease: "easeOut" }}
+        transition={{ duration: 2.5, delay: 2.0, ease: "easeOut" }}
       />
 
       {/* 4. IMMERSIVE CONTENT OVERLAY: Elegant typography, text treatments, & scrolls */}
@@ -144,7 +151,7 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
           className="w-full max-w-6xl flex justify-between items-center text-xs tracking-[0.25em] font-mono text-[#F4F1EA]/75"
           initial={{ opacity: 0, y: -10 }}
           animate={isLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: -10 }}
-          transition={{ duration: 1.5, delay: 2.8, ease: "easeOut" }}
+          transition={{ duration: 1.5, delay: 3.0, ease: "easeOut" }}
         >
           <span className="font-serif font-semibold text-[#E8DDC7] tracking-[0.35em] text-sm flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-[#9C4B4B] animate-pulse" />
@@ -168,7 +175,7 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={isLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: 15 }}
-            transition={{ duration: 1.8, delay: 1.2, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 1.8, delay: 1.6, ease: [0.16, 1, 0.3, 1] }}
             className="relative"
           >
             {/* Soft text glow backdrop */}
@@ -186,7 +193,7 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
           <motion.div
             initial={{ opacity: 0 }}
             animate={isLoaded ? { opacity: 0.85 } : { opacity: 0 }}
-            transition={{ delay: 1.8, duration: 1.5 }}
+            transition={{ delay: 2.2, duration: 1.5 }}
             className="mt-6 flex flex-col items-center"
           >
             <div className="w-12 h-[1px] bg-[#C89B5B]/30 mb-4" />
@@ -205,7 +212,7 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
           onClick={scrollToContent}
           initial={{ opacity: 0, y: 10 }}
           animate={isLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
-          transition={{ duration: 1.5, delay: 3.2, ease: "easeOut" }}
+          transition={{ duration: 1.5, delay: 3.4, ease: "easeOut" }}
         >
           <div className="flex flex-col items-center gap-1.5 font-mono text-[8px] sm:text-[9px] text-[#C89B5B] tracking-[0.35em] uppercase">
             <span>SCROLL DEEPER</span>
