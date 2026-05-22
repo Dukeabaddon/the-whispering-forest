@@ -37,7 +37,7 @@ export default function Lantern({
   };
 
   return (
-    <div id="lantern-wrapper" className={`absolute flex flex-col items-center select-none pointer-events-none origin-top z-25 ${className}`}>
+    <div id="lantern-wrapper" className={`absolute flex flex-col items-center select-none pointer-events-none origin-top z-40 ${className}`}>
       {/* Heavy iron mounting bracket */}
       <div id="lantern-bracket" className="w-4 h-1.5 bg-[#1F1916] rounded-sm shadow-md" />
       

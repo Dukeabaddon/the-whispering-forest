@@ -1,7 +1,7 @@
 export interface NewsItem {
   id: string;
   date: string;
-  category: 'ANNOUNCEMENT' | 'BLU-RAY' | 'EVENT' | 'MUSIC' | 'VISUAL';
+  category: 'ANNOUNCEMENT' | 'BLU-RAY' | 'EVENT' | 'MUSIC' | 'VISUAL' | 'ON AIR' | 'OAD' | 'SEASON 1';
   titleEN: string;
   titleJP: string;
   content: string;
