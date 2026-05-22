@@ -68,7 +68,7 @@ export default function HeroSection({ isLoaded = false }: HeroSectionProps) {
       >
         {/* Underlay watercolor texture/sunbeams */}
         <div
-          className="absolute inset-x-0 bottom-0 top-0 bg-cover bg-center mix-blend-color-burn opacity-45"
+          className="absolute inset-x-0 bottom-0 top-0 bg-cover bg-center opacity-25"
           style={{
             backgroundImage: `url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1600&q=80')`
           }}
